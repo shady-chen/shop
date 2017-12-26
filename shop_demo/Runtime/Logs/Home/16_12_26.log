@@ -1,0 +1,15 @@
+[ 2016-12-26T20:45:32+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.028340s ]
+
+[ 2016-12-26T20:45:55+08:00 ] ::1 /index.php/Home/Goods/goodsinfo.du?good_id=14&PHPSESSID=9tmg1f77r9efg5otpu5oh0nrf6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+
+[ 2016-12-26T20:46:09+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+

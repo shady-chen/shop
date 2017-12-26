@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="{$smarty.const.CSS_URL}bootstrap.min.css"  type="text/css">
+<title>无标题文档</title>
+<style>
+body{
+	background-color: rgb(280,68,0);
+}
+h2{
+	font-family:"微软雅黑";
+	padding-left: 60px;
+	color:white;
+ }
+ .left{
+ 	float:left;
+ 	width:30%;
+ }
+ .right{
+ 	float:right;
+ 	width:60%;
+ }
+ .right ul{
+ 	list-style: none;
+ 	height:30px;
+ }
+ .right ul li{
+ 	color:white;
+ 	float:left;
+ 	margin:5px;
+ 	border-right:0px solid black;
+ 	padding:5px;
+ }
+ a{
+ 	text-decoration:none;
+ 	color:white;
+ }
+ a:hover{
+ 	color:purple;
+ }
+.right .right-left{
+	float:left;
+}
+.right .right-right{
+	padding-right:10px;
+	float:right;
+}
+</style>
+</head>
+
+<body>
+<div>
+	<div class="left"> 
+		<h2>"田野间"商城后台管理</h2>
+	</div>
+
+	<div class="right">
+		<div class="right-left">
+			<ul>
+				<li style="cursor:pointer">当前管理员:{$ad_name}</li>
+				<li><a href="{$smarty.const.__CONTROLLER__}/logout">注销</a></li>
+			</ul>
+		</div> 
+		<div class="right-right">
+			<div id="time">    
+				<script>     
+				document.getElementById('time').innerHTML=new Date().toLocaleString();     
+
+				setInterval("document.getElementById('time').innerHTML=new Date().toLocaleString();",1000);  
+				</script>    
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

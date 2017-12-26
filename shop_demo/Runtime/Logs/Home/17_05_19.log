@@ -1,0 +1,1505 @@
+[ 2017-05-19T11:06:26+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.056210s ]
+
+[ 2017-05-19T11:06:43+08:00 ] ::1 /index.php/Home/User/userInfo?PHPSESSID=njmh7lucvkg6buf6hgt8opr480
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+
+[ 2017-05-19T11:06:43+08:00 ] ::1 /index.php/Home/User/userInfo?PHPSESSID=njmh7lucvkg6buf6hgt8opr480
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+
+[ 2017-05-19T11:06:59+08:00 ] ::1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+
+[ 2017-05-19T11:06:59+08:00 ] ::1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001009s ]
+
+[ 2017-05-19T11:07:03+08:00 ] ::1 /index.php/Home/User/userInfo?PHPSESSID=njmh7lucvkg6buf6hgt8opr480
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+
+[ 2017-05-19T11:07:06+08:00 ] ::1 /index.php/Home/Goods/address
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+
+[ 2017-05-19T11:09:35+08:00 ] ::1 /index.php/Home/Goods/goodslist/type/%E8%82%89%E7%B1%BB%E7%B2%BE%E9%80%89
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+
+[ 2017-05-19T11:09:38+08:00 ] ::1 /index.php/Home/Goods/cart/good_id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+
+[ 2017-05-19T11:09:41+08:00 ] ::1 /index.php/Home/Goods/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+
+[ 2017-05-19T11:10:26+08:00 ] ::1 /index.php/Home/Goods/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+
+[ 2017-05-19T11:10:51+08:00 ] ::1 /index.php/Home/Goods/cart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+
+[ 2017-05-19T11:10:55+08:00 ] ::1 /index.php/Home/Goods/cart/act/update/gd_id/2/num/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+
+[ 2017-05-19T11:10:55+08:00 ] ::1 /index.php/Home/Goods/cart/act/update/gd_id/2/num/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+
+[ 2017-05-19T11:10:57+08:00 ] ::1 /index.php/Home/Goods/goodslist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+
+[ 2017-05-19T11:11:00+08:00 ] ::1 /index.php/Home/Goods/cart/good_id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+
+[ 2017-05-19T11:11:00+08:00 ] ::1 /index.php/Home/Goods/cart/good_id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+
+[ 2017-05-19T11:11:06+08:00 ] ::1 /index.php/Home/Goods/cart/act/update/gd_id/4/num/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+
+[ 2017-05-19T11:11:06+08:00 ] ::1 /index.php/Home/Goods/cart/act/update/gd_id/4/num/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+
+[ 2017-05-19T11:11:08+08:00 ] ::1 /index.php/Home/Goods/goodslist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+
+[ 2017-05-19T11:11:11+08:00 ] ::1 /index.php/Home/Goods/goodsinfo/good_id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+
+[ 2017-05-19T11:11:14+08:00 ] ::1 /index.php/Home/Goods/cart/act/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+
+[ 2017-05-19T11:11:16+08:00 ] ::1 /index.php/Home/Goods/goodslist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+
+[ 2017-05-19T11:11:25+08:00 ] ::1 /index.php/Home/Goods/cart/good_id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+
+[ 2017-05-19T11:11:28+08:00 ] ::1 /index.php/Home/Goods/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+
+[ 2017-05-19T11:12:22+08:00 ] ::1 /index.php/Home/Goods/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+
+[ 2017-05-19T11:14:04+08:00 ] ::1 /index.php/Home/Goods/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+
+[ 2017-05-19T11:17:02+08:00 ] ::1 /index.php/Home/Goods/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+
+[ 2017-05-19T11:17:58+08:00 ] ::1 /index.php/Home/Goods/afterorder/ar_id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+
+[ 2017-05-19T11:18:00+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+
+[ 2017-05-19T11:18:37+08:00 ] ::1 /index.php/Home/User/userInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+
+[ 2017-05-19T11:20:08+08:00 ] ::1 /index.php/Home/User/userInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+
+[ 2017-05-19T11:20:42+08:00 ] ::1 /index.php/Home/User/userInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+
+[ 2017-05-19T11:20:43+08:00 ] ::1 /index.php/Home/User/selectOrders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+ERR: 非法操作:selectOrders
+
+[ 2017-05-19T11:20:43+08:00 ] ::1 /index.php/Home/User/selectOrders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+ERR: 非法操作:selectOrders
+
+[ 2017-05-19T11:21:45+08:00 ] ::1 /index.php/Home/User/userInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+
+[ 2017-05-19T11:21:47+08:00 ] ::1 /index.php/Home/User/selectOrders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+ERR: 模板不存在:E:/xampp/htdocs/Home/View/User/selectOrders.html
+
+[ 2017-05-19T11:22:29+08:00 ] ::1 /index.php/Home/User/userInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+
+[ 2017-05-19T11:22:30+08:00 ] ::1 /index.php/Home/User/selectOrders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+
+[ 2017-05-19T11:22:30+08:00 ] ::1 /index.php/Home/User/selectOrders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+
+[ 2017-05-19T11:22:38+08:00 ] ::1 /index.php/Home/User/infoChangeQuestion
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+
+[ 2017-05-19T11:23:08+08:00 ] ::1 /index.php/Home/User/userInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+
+[ 2017-05-19T11:23:09+08:00 ] ::1 /index.php/Home/User/infoChangeQuestion
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+
+[ 2017-05-19T11:23:10+08:00 ] ::1 /index.php/Home/User/selectOrders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+
+[ 2017-05-19T11:23:11+08:00 ] ::1 /index.php/Home/User/selectOrders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+
+[ 2017-05-19T11:23:11+08:00 ] ::1 /index.php/Home/User/infoChangeQuestion
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+
+[ 2017-05-19T11:23:12+08:00 ] ::1 /index.php/Home/User/selectOrders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+
+[ 2017-05-19T11:23:59+08:00 ] ::1 /index.php/Home/User/userInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+
+[ 2017-05-19T11:24:02+08:00 ] ::1 /index.php/Home/User/selectOrders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+
+[ 2017-05-19T11:24:49+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+
+[ 2017-05-19T11:25:06+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+
+[ 2017-05-19T11:27:22+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+
+[ 2017-05-19T11:27:31+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+
+[ 2017-05-19T11:27:58+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+
+[ 2017-05-19T11:28:00+08:00 ] ::1 /index.php/Home/Goods/goodslist/from/%E5%A4%A9%E6%B4%A5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+
+[ 2017-05-19T11:28:02+08:00 ] ::1 /index.php/Home/Goods/goodslist/type/%E5%90%8D%E8%8C%B6%E5%90%8D%E9%85%92
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+
+[ 2017-05-19T11:28:04+08:00 ] ::1 /index.php/Home/Goods/cart/good_id/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+
+[ 2017-05-19T11:28:06+08:00 ] ::1 /index.php/Home/Goods/goodslist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+
+[ 2017-05-19T11:28:10+08:00 ] ::1 /index.php/Goods/goodslist/p/2.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+
+[ 2017-05-19T11:28:13+08:00 ] ::1 /index.php/Home/Goods/cart/good_id/14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+
+[ 2017-05-19T11:28:15+08:00 ] ::1 /index.php/Home/Goods/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+
+[ 2017-05-19T11:28:17+08:00 ] ::1 /index.php/Home/Goods/afterorder/ar_id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+
+[ 2017-05-19T11:28:20+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+
+[ 2017-05-19T11:28:38+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+
+[ 2017-05-19T11:30:00+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+
+[ 2017-05-19T11:30:39+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+
+[ 2017-05-19T11:32:39+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+
+[ 2017-05-19T11:33:06+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+
+[ 2017-05-19T11:33:14+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+
+[ 2017-05-19T11:33:46+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+
+[ 2017-05-19T11:34:12+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001601s ]
+
+[ 2017-05-19T11:36:28+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+
+[ 2017-05-19T11:36:37+08:00 ] ::1 /index.php/Home/User/userInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+
+[ 2017-05-19T11:36:39+08:00 ] ::1 /index.php/Home/User/selectOrders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+
+[ 2017-05-19T11:36:40+08:00 ] ::1 /index.php/Home/Goods/address
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+
+[ 2017-05-19T11:37:23+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+
+[ 2017-05-19T11:37:37+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+
+[ 2017-05-19T11:37:41+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+
+[ 2017-05-19T11:38:14+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+
+[ 2017-05-19T11:38:29+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+
+[ 2017-05-19T11:38:43+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+
+[ 2017-05-19T11:39:54+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+
+[ 2017-05-19T11:40:35+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000774s ]
+
+[ 2017-05-19T11:42:18+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+
+[ 2017-05-19T11:42:45+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+
+[ 2017-05-19T11:42:56+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+
+[ 2017-05-19T11:43:00+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+
+[ 2017-05-19T11:43:00+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+
+[ 2017-05-19T11:43:04+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+
+[ 2017-05-19T11:43:56+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+
+[ 2017-05-19T11:44:11+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+
+[ 2017-05-19T11:44:28+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000927s ]
+
+[ 2017-05-19T11:48:31+08:00 ] ::1 /index.php/Home/User/userInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+
+[ 2017-05-19T11:48:32+08:00 ] ::1 /index.php/Home/User/selectOrders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+
+[ 2017-05-19T11:48:45+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+
+[ 2017-05-19T11:49:02+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+
+[ 2017-05-19T11:49:13+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+
+[ 2017-05-19T11:49:58+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+
+[ 2017-05-19T11:51:19+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+
+[ 2017-05-19T11:51:56+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+
+[ 2017-05-19T11:52:03+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+
+[ 2017-05-19T11:52:53+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+
+[ 2017-05-19T11:53:04+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+
+[ 2017-05-19T11:53:30+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+
+[ 2017-05-19T11:54:09+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000941s ]
+
+[ 2017-05-19T11:54:48+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+
+[ 2017-05-19T11:54:57+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000990s ]
+
+[ 2017-05-19T11:56:39+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+
+[ 2017-05-19T11:57:17+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+
+[ 2017-05-19T11:57:31+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000848s ]
+
+[ 2017-05-19T11:57:40+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+
+[ 2017-05-19T11:59:59+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+
+[ 2017-05-19T12:00:43+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+
+[ 2017-05-19T12:01:12+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+
+[ 2017-05-19T12:02:48+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+
+[ 2017-05-19T12:09:10+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['od_addr_id'] ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `address` WHERE ( ar_id = Array['od_addr_id'] ) LIMIT 1  
+
+[ 2017-05-19T12:09:51+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+
+[ 2017-05-19T12:12:22+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+
+[ 2017-05-19T12:13:01+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000782s ]
+
+[ 2017-05-19T12:13:30+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+
+[ 2017-05-19T12:14:21+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+
+[ 2017-05-19T12:14:29+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+
+[ 2017-05-19T12:15:12+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+
+[ 2017-05-19T12:15:15+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+
+[ 2017-05-19T12:15:38+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+
+[ 2017-05-19T12:15:53+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+
+[ 2017-05-19T12:16:04+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+
+[ 2017-05-19T12:16:45+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+
+[ 2017-05-19T12:16:50+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+
+[ 2017-05-19T12:17:01+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+
+[ 2017-05-19T12:17:08+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+
+[ 2017-05-19T12:17:38+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+
+[ 2017-05-19T12:17:42+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+
+[ 2017-05-19T12:18:10+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+
+[ 2017-05-19T12:18:31+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001071s ]
+
+[ 2017-05-19T12:18:37+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+
+[ 2017-05-19T14:47:33+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.030120s ]
+
+[ 2017-05-19T14:47:37+08:00 ] ::1 /index.php/Home/User/userInfo?PHPSESSID=uv51fpsm7pnfeqgr9f4kp8i221
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+
+[ 2017-05-19T14:47:45+08:00 ] ::1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+
+[ 2017-05-19T14:47:45+08:00 ] ::1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+
+[ 2017-05-19T14:47:48+08:00 ] ::1 /index.php/Home/User/userInfo?PHPSESSID=uv51fpsm7pnfeqgr9f4kp8i221
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+
+[ 2017-05-19T14:47:48+08:00 ] ::1 /index.php/Home/User/userInfo?PHPSESSID=uv51fpsm7pnfeqgr9f4kp8i221
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+
+[ 2017-05-19T14:47:50+08:00 ] ::1 /index.php/Home/Goods/address
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+
+[ 2017-05-19T14:47:52+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+
+[ 2017-05-19T14:47:55+08:00 ] ::1 /index.php/Home/User/userInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+
+[ 2017-05-19T14:47:56+08:00 ] ::1 /index.php/Home/User/selectOrders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+
+[ 2017-05-19T14:48:13+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+
+[ 2017-05-19T14:48:40+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+
+[ 2017-05-19T14:48:48+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+
+[ 2017-05-19T14:51:03+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+
+[ 2017-05-19T14:51:53+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['od_addr_id'] ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `address` WHERE ( ar_id = Array['od_addr_id'] ) LIMIT 1  
+
+[ 2017-05-19T14:51:57+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+
+[ 2017-05-19T14:56:50+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+
+[ 2017-05-19T14:56:53+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+
+[ 2017-05-19T14:56:56+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+
+[ 2017-05-19T15:01:33+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+
+[ 2017-05-19T15:01:56+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+
+[ 2017-05-19T15:03:41+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+
+[ 2017-05-19T15:04:11+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+
+[ 2017-05-19T15:05:08+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+
+[ 2017-05-19T15:07:40+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+
+[ 2017-05-19T15:08:58+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+
+[ 2017-05-19T15:09:18+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+
+[ 2017-05-19T15:13:04+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+
+[ 2017-05-19T15:13:17+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+
+[ 2017-05-19T15:13:52+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+
+[ 2017-05-19T15:17:22+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+ERR: Think\Model:getFiled方法不存在！
+
+[ 2017-05-19T15:17:38+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+
+[ 2017-05-19T15:17:53+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+
+[ 2017-05-19T15:18:13+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+
+[ 2017-05-19T15:19:26+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+
+[ 2017-05-19T15:19:54+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+
+[ 2017-05-19T15:20:35+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+
+[ 2017-05-19T15:20:38+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+
+[ 2017-05-19T15:23:01+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+
+[ 2017-05-19T15:23:37+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+
+[ 2017-05-19T15:28:38+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+
+[ 2017-05-19T15:28:55+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+
+[ 2017-05-19T15:29:29+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+
+[ 2017-05-19T15:31:29+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `gd_name` FROM `goods` WHERE ( gd_id =  ) LIMIT 1  
+
+[ 2017-05-19T15:31:56+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+
+[ 2017-05-19T15:32:31+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+
+[ 2017-05-19T15:35:56+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+
+[ 2017-05-19T15:37:25+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+
+[ 2017-05-19T15:38:54+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+
+[ 2017-05-19T15:39:02+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+
+[ 2017-05-19T15:39:30+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+
+[ 2017-05-19T15:42:37+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+
+[ 2017-05-19T15:42:47+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+
+[ 2017-05-19T15:42:52+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+
+[ 2017-05-19T15:43:59+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+
+[ 2017-05-19T15:44:09+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+
+[ 2017-05-19T15:44:32+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+
+[ 2017-05-19T15:44:55+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+
+[ 2017-05-19T15:45:33+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+
+[ 2017-05-19T15:46:09+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+
+[ 2017-05-19T15:46:45+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+
+[ 2017-05-19T15:53:25+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+
+[ 2017-05-19T15:53:41+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+
+[ 2017-05-19T15:54:03+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+
+[ 2017-05-19T16:03:00+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+
+[ 2017-05-19T16:03:57+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+
+[ 2017-05-19T16:04:19+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+
+[ 2017-05-19T16:10:33+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+
+[ 2017-05-19T16:10:41+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+
+[ 2017-05-19T16:11:50+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+
+[ 2017-05-19T16:11:55+08:00 ] ::1 /index.php/Home/Goods/goodsinfo.du?good_id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+
+[ 2017-05-19T16:11:57+08:00 ] ::1 /index.php/Home/Goods/cart/act/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+
+[ 2017-05-19T16:11:59+08:00 ] ::1 /index.php/Home/Goods/goodslist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+
+[ 2017-05-19T16:11:59+08:00 ] ::1 /index.php/Home/Goods/goodslist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+
+[ 2017-05-19T16:12:01+08:00 ] ::1 /index.php/Home/Goods/cart/good_id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+
+[ 2017-05-19T16:12:03+08:00 ] ::1 /index.php/Home/Goods/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000955s ]
+
+[ 2017-05-19T16:12:07+08:00 ] ::1 /index.php/Home/Goods/afterorder/ar_id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+
+[ 2017-05-19T16:12:11+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+
+[ 2017-05-19T16:12:18+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+
+[ 2017-05-19T16:13:13+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+
+[ 2017-05-19T16:15:05+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+
+[ 2017-05-19T16:15:17+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+
+[ 2017-05-19T16:15:22+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+
+[ 2017-05-19T16:16:58+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+
+[ 2017-05-19T16:17:10+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+
+[ 2017-05-19T16:17:16+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+
+[ 2017-05-19T16:17:18+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+
+[ 2017-05-19T16:17:35+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+
+[ 2017-05-19T16:17:45+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+
+[ 2017-05-19T16:18:01+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+
+[ 2017-05-19T16:19:53+08:00 ] ::1 /index.php/Home/User/userInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+
+[ 2017-05-19T16:19:54+08:00 ] ::1 /index.php/Home/User/selectOrders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+
+[ 2017-05-19T16:20:13+08:00 ] ::1 /index.php/Home/User/userInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+
+[ 2017-05-19T16:20:15+08:00 ] ::1 /index.php/Home/User/userInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+
+[ 2017-05-19T16:20:26+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+
+[ 2017-05-19T16:20:41+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002038s ]
+
+[ 2017-05-19T16:20:41+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+
+[ 2017-05-19T16:20:43+08:00 ] ::1 /index.php/Home/User/userInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+
+[ 2017-05-19T16:20:45+08:00 ] ::1 /index.php/Home/Goods/address
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+
+[ 2017-05-19T16:20:51+08:00 ] ::1 /index.php/Home/User/selectOrders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+
+[ 2017-05-19T16:21:27+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+
+[ 2017-05-19T16:21:28+08:00 ] ::1 /index.php/Home/User/userInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+
+[ 2017-05-19T16:21:34+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+
+[ 2017-05-19T16:21:37+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+
+[ 2017-05-19T16:21:46+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+
+[ 2017-05-19T16:22:17+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+
+[ 2017-05-19T16:22:53+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000770s ]
+
+[ 2017-05-19T16:22:58+08:00 ] ::1 /index.php/Home/Goods/address
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+
+[ 2017-05-19T16:23:01+08:00 ] ::1 /index.php/Home/User/selectOrders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001037s ]
+
+[ 2017-05-19T16:24:15+08:00 ] ::1 /index.php/Home/User/userInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+
+[ 2017-05-19T16:24:17+08:00 ] ::1 /index.php/Home/User/selectOrders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+
+[ 2017-05-19T16:25:07+08:00 ] ::1 /index.php/Home/User/userInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001611s ]
+
+[ 2017-05-19T16:25:11+08:00 ] ::1 /index.php/Home/User/selectOrders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+
+[ 2017-05-19T16:25:11+08:00 ] ::1 /index.php/Home/User/selectOrders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+
+[ 2017-05-19T16:25:20+08:00 ] ::1 /index.php/Home/User/userInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+
+[ 2017-05-19T16:25:21+08:00 ] ::1 /index.php/Home/User/selectOrders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+
+[ 2017-05-19T16:25:48+08:00 ] ::1 /index.php/Home/User/userInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+
+[ 2017-05-19T16:25:49+08:00 ] ::1 /index.php/Home/User/selectOrders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+
+[ 2017-05-19T16:26:05+08:00 ] ::1 /index.php/Home/User/userInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+
+[ 2017-05-19T16:26:06+08:00 ] ::1 /index.php/Home/User/selectOrders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+
+[ 2017-05-19T16:26:17+08:00 ] ::1 /index.php/Home/User/userInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+
+[ 2017-05-19T16:26:18+08:00 ] ::1 /index.php/Home/User/selectOrders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+
+[ 2017-05-19T16:26:23+08:00 ] ::1 /index.php/Home/User/selectOrders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+
+[ 2017-05-19T16:26:28+08:00 ] ::1 /index.php/Home/User/userInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000892s ]
+
+[ 2017-05-19T16:26:29+08:00 ] ::1 /index.php/Home/User/selectOrders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+
+[ 2017-05-19T16:26:35+08:00 ] ::1 /index.php/Home/User/userInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+
+[ 2017-05-19T16:26:36+08:00 ] ::1 /index.php/Home/User/selectOrders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+
+[ 2017-05-19T16:26:49+08:00 ] ::1 /index.php/Home/User/userInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+
+[ 2017-05-19T16:26:50+08:00 ] ::1 /index.php/Home/User/userInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+
+[ 2017-05-19T16:26:50+08:00 ] ::1 /index.php/Home/User/userInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+
+[ 2017-05-19T16:26:51+08:00 ] ::1 /index.php/Home/User/selectOrders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+
+[ 2017-05-19T16:27:03+08:00 ] ::1 /index.php/Home/User/userInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+
+[ 2017-05-19T16:27:12+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+
+[ 2017-05-19T16:27:15+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+
+[ 2017-05-19T16:27:15+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+
+[ 2017-05-19T16:27:42+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+
+[ 2017-05-19T16:27:57+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+
+[ 2017-05-19T16:28:11+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+
+[ 2017-05-19T16:28:17+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+
+[ 2017-05-19T16:28:17+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+
+[ 2017-05-19T16:30:18+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+
+[ 2017-05-19T16:30:25+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+
+[ 2017-05-19T16:30:25+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+
+[ 2017-05-19T16:30:48+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+
+[ 2017-05-19T16:31:00+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+
+[ 2017-05-19T16:31:04+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+
+[ 2017-05-19T16:31:10+08:00 ] ::1 /index.php/Home/User/userInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+
+[ 2017-05-19T16:31:20+08:00 ] ::1 /index.php/Home/User/userInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+
+[ 2017-05-19T16:31:22+08:00 ] ::1 /index.php/Home/User/selectOrders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+
+[ 2017-05-19T16:32:11+08:00 ] ::1 /index.php/Home/User/userInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000964s ]
+
+[ 2017-05-19T16:32:13+08:00 ] ::1 /index.php/Home/User/selectOrders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+
+[ 2017-05-19T16:32:21+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+
+[ 2017-05-19T16:32:23+08:00 ] ::1 /index.php/Home/User/userInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+
+[ 2017-05-19T16:32:28+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+
+[ 2017-05-19T16:32:30+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+
+[ 2017-05-19T16:32:53+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+
+[ 2017-05-19T16:33:23+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+
+[ 2017-05-19T16:33:25+08:00 ] ::1 /index.php/Home/User/selectOrders.du
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+
+[ 2017-05-19T16:34:34+08:00 ] ::1 /index.php/Home/User/userInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+
+[ 2017-05-19T16:34:36+08:00 ] ::1 /index.php/Home/User/selectOrders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+
+[ 2017-05-19T16:34:36+08:00 ] ::1 /index.php/Home/User/selectOrders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+
+[ 2017-05-19T17:06:22+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+
+[ 2017-05-19T17:06:23+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+

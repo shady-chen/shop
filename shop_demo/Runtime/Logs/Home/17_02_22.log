@@ -1,0 +1,35 @@
+[ 2017-02-22T18:54:41+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.034587s ]
+
+[ 2017-02-22T19:50:10+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+
+[ 2017-02-22T20:40:40+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001501s ]
+
+[ 2017-02-22T20:40:44+08:00 ] ::1 /index.php/Home/Goods/goodslist/type/%E8%82%89%E7%B1%BB%E7%B2%BE%E9%80%89
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+
+[ 2017-02-22T20:40:56+08:00 ] ::1 /index.php/Home/Goods/goodsinfo/good_id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+
+[ 2017-02-22T20:41:04+08:00 ] ::1 /index.php/Home/Goods/goodslist/from/%E5%B1%B1%E8%A5%BF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+
+[ 2017-02-22T20:41:07+08:00 ] ::1 /index.php/Home/Goods/goodslist/from/%E4%BA%91%E5%8D%97
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+

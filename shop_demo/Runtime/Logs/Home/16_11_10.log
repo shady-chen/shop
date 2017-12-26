@@ -1,0 +1,48 @@
+[ 2016-11-10T18:21:57+08:00 ] ::1 /index.php
+ERR: Syntax Error in template "E:/xampp/htdocs/Home/View\Index\index.html"  on line 53 "&lt;?php if($_SESSION['username']){echo &quot;$_SESSION['username'],您好&quot;;}else{echo '1';}?&gt;"  - Unexpected ";", expected one of: "}" , " "
+
+[ 2016-11-10T18:57:09+08:00 ] ::1 /index.php/Home/Index/index
+ERR: 1054:Unknown column 'a' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( user_name='12315465' and user_password=md5(a) ) LIMIT 1  
+
+[ 2016-11-10T18:57:10+08:00 ] ::1 /index.php/Home/Index/index
+ERR: 1054:Unknown column 'a' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( user_name='12315465' and user_password=md5(a) ) LIMIT 1  
+
+[ 2016-11-10T18:57:11+08:00 ] ::1 /index.php/Home/Index/index
+ERR: 1054:Unknown column 'a' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( user_name='12315465' and user_password=md5(a) ) LIMIT 1  
+
+[ 2016-11-10T19:00:54+08:00 ] ::1 /index.php
+ERR: Syntax Error in template "E:/xampp/htdocs/Home/View\Index\index.html"  on line 105 "location.href = &quot;{$smarty.const__ACTION__}?a=1&quot;;" $smarty.const__ACTION__ is invalid
+
+[ 2016-11-10T19:01:15+08:00 ] ::1 /index.php
+ERR: Syntax Error in template "E:/xampp/htdocs/Home/View\Index\index.html"  on line 105 "location.href = &quot;{$smarty.const__ACTION__}&quot;;" $smarty.const__ACTION__ is invalid
+
+[ 2016-11-10T19:01:16+08:00 ] ::1 /index.php
+ERR: Syntax Error in template "E:/xampp/htdocs/Home/View\Index\index.html"  on line 105 "location.href = &quot;{$smarty.const__ACTION__}&quot;;" $smarty.const__ACTION__ is invalid
+
+[ 2016-11-10T19:01:16+08:00 ] ::1 /index.php
+ERR: Syntax Error in template "E:/xampp/htdocs/Home/View\Index\index.html"  on line 105 "location.href = &quot;{$smarty.const__ACTION__}&quot;;" $smarty.const__ACTION__ is invalid
+
+[ 2016-11-10T19:09:51+08:00 ] ::1 /index.php/Home/Index/logout.php
+ERR: 非法操作:logout.php
+
+[ 2016-11-10T19:10:21+08:00 ] ::1 /index.php/Home/Index/logout.php
+ERR: 非法操作:logout.php
+
+[ 2016-11-10T19:13:36+08:00 ] ::1 /index.php/Home/Index/logout.php
+ERR: 非法操作:logout.php
+
+[ 2016-11-10T19:14:35+08:00 ] ::1 /index.php/Home/Index/logout.php
+ERR: 非法操作:logout.php
+
+[ 2016-11-10T19:15:45+08:00 ] ::1 /index.php/Home/Index/logout.php
+ERR: 非法操作:logout.php
+
+[ 2016-11-10T19:15:58+08:00 ] ::1 /index.php/Home/Index/index.php
+ERR: 非法操作:index.php
+
+[ 2016-11-10T19:16:05+08:00 ] ::1 /index.php/Home/Index/index.php
+ERR: 非法操作:index.php
+

@@ -1,0 +1,44 @@
+[ 2016-11-26T20:10:13+08:00 ] ::1 /index.php/Home/Goods/cart.php
+ERR: 非法操作:cart.php
+
+[ 2016-11-26T20:10:28+08:00 ] ::1 /index.php/Home/Goods/cart.php
+ERR: 非法操作:cart.php
+
+[ 2016-11-26T20:10:37+08:00 ] ::1 /index.php/Home/Goods/cart/act/delete/gd_id/cart.php
+ERR: 1054:Unknown column 'cart.php' in 'where clause'
+ [ SQL语句 ] : delete from cart where ct_good_id=cart.php
+
+[ 2016-11-26T20:11:50+08:00 ] ::1 /index.php/Home/Goods/cart/good_id/cart.php
+ERR: 1054:Unknown column 'cart.php' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `cart` WHERE ( ct_good_id=cart.php ) LIMIT 1  
+
+[ 2016-11-26T20:13:14+08:00 ] ::1 /index.php/Home/Goods/cart/good_id/cart.php
+ERR: 1054:Unknown column 'cart.php' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `cart` WHERE ( ct_good_id=cart.php ) LIMIT 1  
+
+[ 2016-11-26T20:15:27+08:00 ] ::1 /index.php/Home/Goods/cart.php
+ERR: 非法操作:cart.php
+
+[ 2016-11-26T20:15:43+08:00 ] ::1 /index.php/Home/Goods/cart.php
+ERR: 非法操作:cart.php
+
+[ 2016-11-26T20:16:54+08:00 ] ::1 /index.php/Home/Goods/cart.php
+ERR: 非法操作:cart.php
+
+[ 2016-11-26T20:16:57+08:00 ] ::1 /index.php/Home/Goods/cart.php
+ERR: 非法操作:cart.php
+
+[ 2016-11-26T20:17:25+08:00 ] ::1 /index.php/Home/Goods/cart.php
+ERR: 非法操作:cart.php
+
+[ 2016-11-26T20:37:59+08:00 ] ::1 /index.php/Home/Goods/cart/good_id/act/update/gd_id/3
+ERR: 1054:Unknown column 'act' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `cart` WHERE ( ct_good_id=act ) LIMIT 1  
+
+[ 2016-11-26T20:39:36+08:00 ] ::1 /index.php/Home/Goods/cart/good_id/act/update/gd_id/3
+ERR: 1054:Unknown column 'act' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `cart` WHERE ( ct_good_id=act ) LIMIT 1  
+
+[ 2016-11-26T20:39:45+08:00 ] ::1 /index.php/Home/Goods/act/update/gd_id/4
+ERR: 非法操作:act
+

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="">
+    <meta name="author" content="">
+	
+    <title>selectOrders</title>
+	
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="{$smarty.const.CSS_URL}bootstrap.min.css"  type="text/css">
+	
+	<!-- Custom CSS -->
+    <link rel="stylesheet" href="{$smarty.const.CSS_URL}style.css">
+	
+	<!-- my CSS -->
+	<link rel="stylesheet" href="{$smarty.const.CSS_URL}my.css">
+
+	<!-- Custom Fonts -->
+    <link rel="stylesheet" href="{$smarty.const.FONT_URL}css/font-awesome.min.css"  type="text/css">
+    <link rel="stylesheet" href="{$smarty.const.FONTS_URL}font-slider.css" type="text/css">
+	
+	
+	
+	
+
+
+</head>
+
+<body>
+	
+
+
+	<div id="page-content" class="single-page">
+		<div class="container" style="margin-left:50px;">
+			<div class="row">
+				<div class="col-lg-12">
+					<ul class="breadcrumb">
+						<li style="color:rgb(280,68,0)">查看个人订单</li>
+					</ul>
+				</div>
+			</div>
+	
+			<div class="row">
+				<div class="col-md-12">
+					<div class="heading"><h2 style="color:rgb(280,69,0);padding-left:200px">购物历史</h2></div>
+				</div>
+				<div class="col-md-12" id="selectOrders">
+					<center>
+						<ul>
+						{assign var="i" value="0"}
+							{foreach $info as $v}
+
+								<li id="li{$i}" onclick="showDiv('div{$i}')">
+									<span style="margin-left:10px">订单编号：{$v['od_id']}</span>
+									<span>订单总价：{$v['od_price']}</span>
+									<span>订单时间：{$v['od_time']}</span>
+								</li>
+								<div class="order" id="div{$i}">
+								  <h5 style="padding-top:20px;">订单的具体信息</h5>
+								  	<div class="order-left">
+										<table class="table table-border" style="width:100%">
+											<tr>
+												<td style="color:rgb(280,68,0);font-weight:bolder">商品名称</td>
+												{foreach $v['od_good_id'] as $value}
+													<td>{$value}</td>
+												{/foreach}
+											</tr>
+											<tr>
+												<td style="color:rgb(280,68,0);font-weight:bolder">购买数量</td>
+												{foreach $v['od_buy_count'] as $value}
+													<td>{$value}</td>
+												{/foreach}
+											</tr>
+										</table>
+									</div>
+
+
+
+									<h6>收件信息</h6>
+									<table class="table table-border">
+										<tr>
+											<th>收件人</th>
+											<th>电话</th>
+											<th>收货地址</th>
+											<th>邮编</th>
+										</tr>
+										<tr>
+											<td>{$v['od_addr_id']['ar_name']}</td>
+											<td>{$v['od_addr_id']['ar_phone']}</td>
+											<td>{$v['od_addr_id']['ar_address']}</td>
+											<td>{$v['od_addr_id']['ar_code']}</td>
+										</tr>
+									</table>
+								</div>
+								{$i = $i+1}
+							{/foreach}
+						</ul>	
+					</center>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+<script>
+//个人信息界面展示订单信息
+ function showDiv(div){
+ 	var body = document.getElementById("selectOrders");
+ 	var li = body.getElementsByTagName('li');
+ 	 
+
+ 	for(var i=0;i<li.length;i++){
+ 		var x = "div"+i;
+ 		if(x == div){
+ 			document.getElementById(x).style.display = "block";
+ 		}else{
+ 			var x = "div"+i;
+ 			document.getElementById(x).style.display = "none";
+ 		}
+ 	}
+ }
+</script>
+
+
+</body>
+</html>

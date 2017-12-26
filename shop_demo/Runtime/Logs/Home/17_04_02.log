@@ -1,0 +1,101 @@
+[ 2017-04-02T12:01:15+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012543s ]
+
+[ 2017-04-02T12:03:03+08:00 ] ::1 /index.php/Home/Goods/goodsinfo/good_id/12?PHPSESSID=1aart52ch2fa15mu8tjv4bnta1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+
+[ 2017-04-02T12:03:49+08:00 ] ::1 /index.php/Home/Goods/cart/act/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+
+[ 2017-04-02T12:03:58+08:00 ] ::1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+ERR: 1054:Unknown column 'dxy' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( user_name='dxy' and user_password=md5(dxy) ) LIMIT 1  
+
+[ 2017-04-02T12:04:01+08:00 ] ::1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+
+[ 2017-04-02T12:04:06+08:00 ] ::1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+ERR: 1054:Unknown column 'dxy' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( user_name='dxy' and user_password=md5(dxy) ) LIMIT 1  
+
+[ 2017-04-02T12:04:09+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+
+[ 2017-04-02T12:04:16+08:00 ] ::1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+ERR: 1054:Unknown column 'dxy' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( user_name='dxy' and user_password=md5(dxy) ) LIMIT 1  
+
+[ 2017-04-02T12:05:56+08:00 ] ::1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+
+[ 2017-04-02T12:06:00+08:00 ] ::1 /index.php/Home/Goods/goodsinfo.du?good_id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+
+[ 2017-04-02T12:06:05+08:00 ] ::1 /index.php/Home/Goods/favorite/add/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+
+[ 2017-04-02T12:06:26+08:00 ] ::1 /index.php/Home/Goods/cart/good_id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+
+[ 2017-04-02T12:06:56+08:00 ] ::1 /index.php/Home/Goods/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+
+[ 2017-04-02T12:07:22+08:00 ] ::1 /index.php/Home/Goods/afterorder/ar_id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+
+[ 2017-04-02T12:07:25+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+
+[ 2017-04-02T12:07:54+08:00 ] ::1 /index.php/Home/User/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+
+[ 2017-04-02T12:09:02+08:00 ] ::1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+
+[ 2017-04-02T12:09:02+08:00 ] ::1 /index.php/Home/Index/image/foot.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+
+[ 2017-04-02T12:09:02+08:00 ] ::1 /index.php/Home/Index/image/foot.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+

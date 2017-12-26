@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <title>Address</title>
+    
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="{$smarty.const.CSS_URL}bootstrap.min.css"  type="text/css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{$smarty.const.CSS_URL}style.css">
+    
+    <!-- my CSS -->
+    <link rel="stylesheet" href="{$smarty.const.CSS_URL}my.css">
+
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="{$smarty.const.FONT_URL}css/font-awesome.min.css"  type="text/css">
+    <link rel="stylesheet" href="{$smarty.const.FONTS_URL}font-slider.css" type="text/css">
+    
+    <!-- jQuery and Modernizr-->
+    <script src="{$smarty.const.JS_URL}jquery-2.1.1.js"></script>
+    
+    <!-- Core JavaScript Files -->       
+    <script src="{$smarty.const.JS_URL}bootstrap.min.js"></script>
+    
+    <!-- 登录框插件js -->
+    <script src="{$smarty.const.JS_URL}index.js"></script>
+    <!-- 登录框插件 -->
+   <!-- <script type="text/javascript" src="http://code.jquery.com/jquery-latest.pack.js"></script> -->
+
+</head>
+
+<body>
+    <!--Top-->
+    <nav id="top">
+        <div class="container">
+            <div class="row">
+    
+                <div class="col-md-2" >
+                    <div id="logo"><img src="{$smarty.const.IMG_URL}logo.png" /></div>
+                </div>
+                <div class="col-md-2">
+                    <div id="logo" style="width:400px;margin-left:-20px"><img src="{$smarty.const.IMG_URL}top.png" /></div>
+                </div>
+                    <div class="col-md-8" style="float:right;padding-top:10px">
+                     <ul class="top-link">
+                            <li><span class="glyphicon glyphicon-user"></span><span style="color:black;">{$username}</span></li>
+                            <li><a href="{$smarty.const.__MODULE__}/User/register"><span class="glyphicon glyphicon-glass" style></span>注册</a></li>
+                            <li><a href="{$smarty.const.__CONTROLLER__}/cart"><span class="glyphicon glyphicon-shopping-cart"></span>购物车</a></li>
+                            <li><a href="{$smarty.const.__CONTROLLER__}/favorite"><span class="glyphicon glyphicon-star"></span>收藏夹</a></li>
+                            <li><a href="{$smarty.const.__MODULE__}/User/userInfo"><span class="glyphicon glyphicon-user" style=></span> 个人管理</a></li>
+                            <li><a href="{$smarty.const.__CONTROLLER__}/contact"><span class="glyphicon glyphicon-envelope"></span>联系我们</a></li>
+                            <li><a href="{$smarty.const.__MODULE__}/Index/logout.du"><span class="glyphicon glyphicon-user"></span>注销</a></li>
+                        </ul>
+
+                       <div class="clo-md-6" style="position: absolute;right:200px;top:50px">
+                            <input type="text" class="form-control" id="search" style="width:220px" placeholder="请输入关键字 例:蜂蜜">
+                            <button type="button" class="btn btn-default" style="position:absolute;top:0px;right:-50px" onclick="search();">
+                                <span class="glyphicon glyphicon-search" style="color:rgb(255, 140, 60);"></span>
+                            </button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </nav>
+</div>
+
+    <nav id="menu" class="navbar">
+        <div class="container">
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="/index.php">首页</a></li>
+                    <li class="dropdown"><a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">按种类分类</a>
+                        <div class="dropdown-menu">
+                            <div class="dropdown-inner">
+                                <ul class="list-unstyled">
+                                    <li><a href="{$smarty.const.__CONTROLLER__}/goodslist/type/肉类精选">肉类精选</a></li>
+                                    <li><a href="{$smarty.const.__CONTROLLER__}/goodslist/type/粮油米面">粮油米面</a></li>
+                                    <li><a href="{$smarty.const.__CONTROLLER__}/goodslist/type/名茶名酒">名茶名酒</a></li>
+                                    <li><a href="{$smarty.const.__CONTROLLER__}/goodslist/type/果蔬副食">果蔬副食</a></li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li><a href="{$smarty.const.__CONTROLLER__}/goodslist/type/水产极品">水产极品</a></li>
+                                    <li><a href="{$smarty.const.__CONTROLLER__}/goodslist/type/野生特产">野生特产</a></li>
+                                    <li><a href="{$smarty.const.__CONTROLLER__}/goodslist/type/滋补保健">滋补保健</a></li>
+                                    <li><a href="{$smarty.const.__CONTROLLER__}/goodslist/type/工艺礼品">工艺礼品</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="dropdown"><a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">按地区分类</a>
+                        <div class="dropdown-menu">
+                            <div class="dropdown-inner">
+                               <ul class="list-unstyled">
+                                    <li><a href="{$smarty.const.__CONTROLLER__}/goodslist/from/云南">云南</a></li>
+                                    <li><a href="{$smarty.const.__CONTROLLER__}/goodslist/from/四川">四川</a></li>
+                                    <li><a href="{$smarty.const.__CONTROLLER__}/goodslist/from/重庆">重庆</a></li>
+                                    <li><a href="{$smarty.const.__CONTROLLER__}/goodslist/from/北京">北京</a></li>
+                                    <li><a href="{$smarty.const.__CONTROLLER__}/goodslist/from/山西">山西</a></li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li><a href="{$smarty.const.__CONTROLLER__}/goodslist/from/天津">天津</a></li>
+                                    <li><a href="{$smarty.const.__CONTROLLER__}/goodslist/from/江苏">江苏</a></li>
+                                    <li><a href="{$smarty.const.__CONTROLLER__}/goodslist/from/浙江">浙江</a></li>
+                                    <li><a href="{$smarty.const.__CONTROLLER__}/goodslist/from/海南">海南</a></li>
+                                    <li><a href="{$smarty.const.__CONTROLLER__}/goodslist/from/湖南">湖南</a></li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li><a href="{$smarty.const.__CONTROLLER__}/goodslist/from/福建">福建</a></li>
+                                    <li><a href="{$smarty.const.__CONTROLLER__}/goodslist/from/东三省">东三省</a></li>
+                                    <li><a href="{$smarty.const.__CONTROLLER__}/goodslist/from/西藏">西藏</a></li>
+                                    <li><a href="{$smarty.const.__CONTROLLER__}/goodslist/from/内蒙古">内蒙古</a></li>
+                                    <li><a href="{$smarty.const.__CONTROLLER__}/goodslist/from/新疆">新疆</a></li>
+                                </ul>
+                            </div> 
+                        </div>
+                    </li>
+                    <li class="dropdown"><a href="{$smarty.const.__CONTROLLER__}/goodstext">特产百科</a></li>
+                    <li><a href="{$smarty.const.__CONTROLLER__}/contact">联系我们</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--//////////////////////////////////////////////////-->
+    <!--///////////////////Cart Page//////////////////////-->
+    <!--//////////////////////////////////////////////////-->
+<script>
+ 
+    function change(id){
+        var arId = document.getElementById("arId").value;
+        var name = document.getElementById("name").value;
+        var phone = document.getElementById("phone").value;
+        var address = document.getElementById("address").value;
+        var code = document.getElementById("code").value;
+            var xhr = new XMLHttpRequest();
+            xhr.onreadystatechange = function(){
+                if(xhr.readyState == 4 && xhr.status == 200){
+                    //alert(xhr.responseText);
+                    var info=eval('('+decodeURI(xhr.responseText)+')');
+                    // alert(info.ar_address);
+
+                        arId = info.ar_id;
+                        name = info.ar_name;
+                        phone = info.ar_phone;
+                        address = info.ar_address;
+                        code = info.ar_email;  
+                }
+            }
+            xhr.open("get","/index.php/Goods/address/act/change/ar_id/"+id);
+            xhr.send(null);
+            
+    }
+   
+</script>
+
+
+    <div id="page-content" class="single-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="breadcrumb">
+                        <li><a href="/index.php">首页</a></li>
+                         <li><a href="javascript:history.go(-1);">返回上一级</a></li>
+                        <li><a href="javascript:void(0)" style="color:rgb(280,68,0)">管理收货地址</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="heading"><h3 style="color:rgb(280,69,0);padding-left:100px">新增收货地址</h3></div>
+                </div>
+                <div class="col-md-6" style="margin-left:100px">
+                    <table class="table" id="address">
+                      <form method="post" action="{$smarty.const.__ACTION__}">
+                        <tr>
+                          <td><label>收货人姓名</label></td>
+                          <td>
+                                <input type="text" class="form-control" placeholder="请填写收货人姓名" name="ad_name" id="name" required>
+                           </td>
+                        </tr>
+                        <tr>
+                            <td><label>收货人电话</label></td>
+                            <td>
+                            
+                                <input type="text" class="form-control" placeholder="请填写收货人电话" name="ad_phone" id="phone" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>收货地址</label></td>
+                            <td>
+                                <input type="text" class="form-control" placeholder="请填写收货地址。建议尽量写详细" name="ad_ad" id="address" required> 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>邮编</label></td>
+                            <td>
+                                <input type="text" class="form-control" placeholder="请填写收货地址邮编" name="ad_email" id="code" required>
+                                <span id="emailSpan"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                            <input type="hidden" id="arId">
+                            <input type="submit" style="background:rgb(280,68,0);color:white;width:150px;height:40px;border-radius: 10px;margin-left:80px" value="添加">
+                            <input type="reset" style="background:rgb(280,68,0);color:white;width:150px;height:40px;border-radius: 10px" value="重写">
+                            </td>
+                        </tr>
+                    </form>
+                    </table>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                  <table class="table table-hover" id="address-span">
+                           <h6 style="color:rgb(280,68,0);font-size: 16px">已保存X条收货地址，您还可以保存X条地址(最多20条)</h6>
+                            <tr>
+                                <th scope="col">收货人</th>
+                                <th scope="col">电话</th>
+                                <th scope="col">收货地址</th>
+                                <th scope="col">邮编</th>
+                                <th scope="col">操作</th>
+                            </tr>
+                        {foreach $info as $v}
+                            <tr>
+                                <td>{$v['ar_name']}</td>
+                                <td>{$v['ar_phone']}</td>
+                                <td>{$v['ar_address']}</td>
+                                <td>{$v['ar_code']}</td>
+                                <td>
+                                    
+                                    <a href="{$smarty.const.__ACTION__}/act/delete/ar_id/{$v['ar_id']}" class="btn btn-danger btn-sm active" role="button">删除</a>
+                                    <a href="order/ar_id/{$v['ar_id']}" class="btn btn-info btn-sm active" role="button">确定</a>
+                                </td>
+                            </tr>
+                        {/foreach}
+                        </table>
+                </div>
+    </div> 
+
+
+    <footer class="address_foot">
+        <div class="container">
+            <div class="wrap-footer">
+                <div class="row">
+                    <div class="col-md-3 col-footer footer-1">
+                        <div class="heading"><h4>新手上路</h4></div>
+                        <ul>
+                            <li><a href="#">交易条款</a></li>
+                            <li><a href="#">会员登录</a></li>
+                            <li><a href="#">找回密码</a></li>
+                            <li><a href="#">免费注册</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-footer footer-2">
+                        <div class="heading"><h4>付款方式</h4></div>
+                        <ul>
+                            <li><a href="#">货到付款</a></li>
+                            <li><a href="#">网上支付</a></li>
+                            <li><a href="#">银行汇款</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-footer footer-3">
+                        <div class="heading"><h4>售后服务</h4></div>
+                        <ul>
+                            <li><a href="#">维权说明</a></li>
+                            <li><a href="#">安全与保密</a></li>
+                            <li><a href="#">退换货流程</a></li>
+                            <li><a href="#">退款方式及时间</a></li>
+                            <li><a href="#">退换货须知</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-footer footer-4">
+                        <div class="heading"><h4>联系我们</h4></div>
+                        <ul>
+                            <li><span class="glyphicon glyphicon-home"></span>山西省太原市中北大学</li>
+                            <li><span class="glyphicon glyphicon-earphone"></span>+87 3922110</li>
+                            <li><span class="glyphicon glyphicon-envelope"></span>moon_light_d@outlook.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="foot">
+                    
+                Copyright &copy; 御帝 2016, All Rights Reserved  <img src="{$smarty.const.IMG_URL}foot.gif"  alt="版权" style="vertical-align:middle;" /> 京ICP证041189号 特产食品经营许可证 
+            </div>
+        </div>
+    </footer>
+
+
+<div class="returnTop">
+    <a href="#top">
+        <span class="glyphicon glyphicon-upload" id="scrollto"></span>
+    </a>
+</div>
+</body>
+</html>

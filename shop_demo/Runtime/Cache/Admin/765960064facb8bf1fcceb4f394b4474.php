@@ -1,0 +1,23 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style>
+	body{
+		background:pink;
+	}
+	div{
+		width:500px;
+		height:300px;
+		margin:50px 0 0 30px;
+		color:white;
+		font-weight:bold;
+	}
+</style>
+</head>
+
+<body>
+	<h1 style='font-family:楷体;position:relative;;top:150px;left:350px;'>欢迎来到"忆家乡"管理处</h1>
+</body>
+</html>

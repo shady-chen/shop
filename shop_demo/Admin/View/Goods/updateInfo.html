@@ -17,7 +17,7 @@
 
 	<!-- Custom Fonts -->
     <link rel="stylesheet" href="{$smarty.const.FONT_URL}css/font-awesome.min.css"  type="text/css">
-    <link rel="stylesheet" href="{$smarty.const.FONTS_URL}font-slider.css" type="text/css">
+    <link rel="stylesheet" href="__PUBLIC__/static/css/font-slider.css" type="text/css">
 	
 	<!-- jQuery and Modernizr-->
 	<script src="__PUBLIC__/js/jquery-2.1.1.js"></script>
@@ -25,7 +25,7 @@
 	<!-- Core JavaScript Files -->  	 
     <script src="__PUBLIC__/js/bootstrap.min.js"></script>
 
-    <script src="{$smarty.const.ADMIN_JS}shopAdmin.js"></script>
+    <script src="__PUBLIC__/static/js/shopAdmin.js"></script>
 
 </head>
 
@@ -36,7 +36,7 @@
 		<div class="col-md-12">
 				<table class="table" id="register">
 					<caption><h2>更改商品信息</h2></caption>
-					  <form method="post" action="/index.php/Home/Index/update"  enctype="multipart/form-data" onsubmit="return checkForm();">
+					  <form method="post" action="/index.php/Admin/Goods/update"  enctype="multipart/form-data" onsubmit="return checkForm();">
 						<input type="hidden" value="{$info['gd_id']}" name="gd_id">
 					  	<tr>
 					  	  <td><label>商品名称</label></td>

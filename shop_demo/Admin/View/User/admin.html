@@ -14,11 +14,11 @@
 
 	
 	<!--  CSS -->
-	<link rel="stylesheet" href="{$smarty.const.ADMIN_CSS}my.css">
+	<link rel="stylesheet" href="__PUBLIC__/static/css/my.css">
 
 	<!-- Custom Fonts -->
     <link rel="stylesheet" href="{$smarty.const.FONT_URL}css/font-awesome.min.css"  type="text/css">
-    <link rel="stylesheet" href="{$smarty.const.FONTS_URL}font-slider.css" type="text/css">
+    <link rel="stylesheet" href="__PUBLIC__/static/css/font-slider.css" type="text/css">
 	
 	<!-- jQuery and Modernizr-->
 	<script src="__PUBLIC__/js/jquery-2.1.1.js"></script>
@@ -39,18 +39,18 @@
 					<th>管理员名称</th>
 					<th>操作</th>
 				</tr>
-			{foreach $info as $v}
+				<volist name="info" id="v">
 				<tr>
 					<td>{$v['ad_id']}</td>
 					<td>{$v['ad_name']}</td>
 					<td>
-					   <a href="/index.php/Home/Index/adminInfo/ad_id/{$v['ad_id']}/act/changeName">修改账号</a>
-					   {if $v['ad_id'] == $id}
-					   <a href="/index.php/Home/Index/adminInfo/ad_id/{$v['ad_id']}/act/changePsword">修改密码</a>
-					   {/if}
+					   <a href="/index.php/Admin/User/adminInfo/ad_id/{$v['ad_id']}/act/changeName">修改账号</a>
+						<if condition="$v['ad_id'] == $id">
+							<a href="/index.php/Admin/User/adminInfo/ad_id/{$v['ad_id']}/act/changePsword">修改密码</a>
+						</if>
 					</td>
 				</tr>
-			{/foreach}	
+				</volist>
 			</table>
 		</div>
 	</div>

@@ -20,7 +20,7 @@
 
 	<!-- Custom Fonts -->
     <link rel="stylesheet" href="{$smarty.const.FONT_URL}css/font-awesome.min.css"  type="text/css">
-    <link rel="stylesheet" href="{$smarty.const.FONTS_URL}font-slider.css" type="text/css">
+    <link rel="stylesheet" href="__PUBLIC__/static/css/font-slider.css" type="text/css">
 
 </head>
 
@@ -52,15 +52,15 @@
 									</tr>
 									<tr>
 										<td style="color:rgb(280,68,0);font-weight:bolder">商品名称</td>
-										{foreach $info['od_good_id'] as $value}
+										<volist name="info['od_good_id']" id="value">
 											<td>{$value}</td>
-										{/foreach}
+										</volist>
 									</tr>
 									<tr>
 										<td style="color:rgb(280,68,0);font-weight:bolder">购买数量</td>
-										{foreach $info['od_buy_count'] as $value}
+										<volist name="info['od_buy_count']" id="value">
 											<td>{$value}</td>
-										{/foreach}
+										</volist>
 									</tr>
 									<tr>
 										<td style="color:rgb(280,68,0);font-weight:bolder">订单总价</td>

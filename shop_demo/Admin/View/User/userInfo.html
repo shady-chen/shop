@@ -14,11 +14,11 @@
 
 	
 	<!--  CSS -->
-	<link rel="stylesheet" href="{$smarty.const.ADMIN_CSS}my.css">
+	<link rel="stylesheet" href="__PUBLIC__/static/css/my.css">
 
 	<!-- Custom Fonts -->
-    <link rel="stylesheet" href="{$smarty.const.FONT_URL}css/font-awesome.min.css"  type="text/css">
-    <link rel="stylesheet" href="{$smarty.const.FONTS_URL}font-slider.css" type="text/css">
+    <link rel="stylesheet" href="__PUBLIC__/static/css/font-awesome.min.css"  type="text/css">
+    <link rel="stylesheet" href="__PUBLIC__/static/css/font-slider.css" type="text/css">
 	
 	<!-- jQuery and Modernizr-->
 	<script src="__PUBLIC__/js/jquery-2.1.1.js"></script>
@@ -39,17 +39,17 @@
 					<th>会员名</th>
 					<th style="padding-left:70px">操作</th>
 				</tr>
-			{foreach $info as $v}
+				<volist name="info" id="v">
 				<tr>
 					<td>{$v['user_id']}</td>
 					<td>{$v['user_name']}</td>
 					<td>
-						<a href="/index.php/Home/Index/user/user_id/{$v['user_id']}">查看会员信息</a>
+						<a href="/index.php/Admin/User/user/user_id/{$v['user_id']}">查看会员信息</a>
 						&nbsp;&nbsp;&nbsp;
-						<a href="">删除</a>
+
 					</td>
 				</tr>
-			{/foreach}	
+				</volist>
 			</table>
 		</div>
 	</div>

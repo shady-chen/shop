@@ -18,7 +18,7 @@
 
 	<!-- Custom Fonts -->
     <link rel="stylesheet" href="{$smarty.const.FONT_URL}css/font-awesome.min.css"  type="text/css">
-    <link rel="stylesheet" href="{$smarty.const.FONTS_URL}font-slider.css" type="text/css">
+    <link rel="stylesheet" href="__PUBLIC__/static/css/font-slider.css" type="text/css">
 
 </head>
 
@@ -47,17 +47,17 @@
 							<th>操作</th>
 						</tr>
 
-					{foreach $info as $v}
+						<volist name="info" id="v">
 						<tr>
-							<td>{$v['od_id']}</td>
+							<td>{$i}</td>
 							<td>{$v['od_price']}</td>
 							<td>{$v['od_time']}</td>
 							<td>
-								<a class="btn btn-info" href="/index.php/Home/Index/orderInfo/act/select/id/{$v['od_id']}">查看详情</a>
-								<a class="btn btn-danger" href="/index.php/Home/Index/orderInfo/act/delete/id/{$v['od_id']}">删除</a>
+								<a class="btn btn-info" href="/index.php/Admin/Goods/orderInfo/act/select/id/{$v['od_id']}">查看详情</a>
+								<a class="btn btn-danger" href="/index.php/Admin/Goods/orderInfo/act/delete/id/{$v['od_id']}">删除</a>
 							</td>
 						</tr>
-					{/foreach}
+						</volist>
 
 
 					</table>	

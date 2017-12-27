@@ -59,9 +59,11 @@ class GoodsController extends Controller{
 		if(!$info)
         {
             echo '添加失败';
+            dump($upload->getError());
         }
         else
         {
+
             echo '添加成功';
         }
         return;
@@ -96,7 +98,11 @@ A;
 
 
 		}else if($act == "delete"){  //删除商品
-			
+            $goods = D("goods");
+            $good_id = $_GET['gd_id'];
+            $goods -> where("gd_id=$good_id") -> delete();
+            echo "删除成功";
+            U('/index.php/Admin/Goods/goodList');
 		}
 	}
 
@@ -155,7 +161,8 @@ A;
 			//上传图片
 			$config = array(
 					'maxsize' => 3145728,
-					'savePath' => './images/good_img/',
+                    'rootPath' => './Public/',
+                    'savePath' => 'images/good_img/',
 					'exts' => array('jpg','png','jpeg','gif'),
 					'autoSub' => false,
 					'saveName' => '',
@@ -200,7 +207,7 @@ A;
 		$orders = D("orders");
 
 		if($act == "delete"){ //删除订单信息
-			$orders->where('od_id = $od_id')->delete();
+			$orders->where(['od_id'=>$od_id])->delete();
 			echo "<script>";
 				echo "alert('删除成功!');";
 			echo "</script>";

@@ -20,7 +20,7 @@
 
 	<!-- Custom Fonts -->
     <link rel="stylesheet" href="{$smarty.const.FONT_URL}css/font-awesome.min.css"  type="text/css">
-    <link rel="stylesheet" href="{$smarty.const.FONTS_URL}font-slider.css" type="text/css">
+    <link rel="stylesheet" href="__PUBLIC__/static/css/font-slider.css" type="text/css">
 
 </head>
 
@@ -43,23 +43,24 @@
 				<div class="col-md-12">
 					<center>					
 						<div class="col-md-8">
-						 	{if $act == "changeName"}
+
+							<if condition="$act=='changeName'">
 						 		<label>请输入新的账号名称并谨记:</label>
-						 		<form action="/index.php/Home/User/change" method="post" class="form">
+						 		<form action="/index.php/Admin/User/change" method="post" class="form">
 						 			<input type="text" name='newName' required>
 						 			<input type="hidden" value="{$act}" name="act">
 						 			<input type="hidden" value="{$id}" name="id">
 						 			<input type="submit" value="修改" class="btn btn-info">
 						 		</form>
-						 	{else}
+						 	<else />
 						 		请输入新的密码并谨记:
-						 		<form action="/index.php/Home/User/change" method="post" class="form">
+						 		<form action="/index.php/Admin/User/change" method="post" class="form">
 						 			<input type="text" name='newPasword' required>
 						 			<input type="hidden" value="{$act}" name="act">
 						 			<input type="hidden" value="{$id}" name="id">
 						 			<input type="submit" value="修改" class="btn btn-info">
 						 		</form>
-						 	{/if}
+						 	</if>
 						</div>
 					</center>
 				</div>

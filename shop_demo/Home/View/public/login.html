@@ -1,0 +1,44 @@
+<div id="boxes">
+    <div id="dialog" class="window">
+        <div class="login">
+            <div class="login_div">
+                <div class="title">
+                    忆家乡特产商城欢迎您！
+                </div>
+                <form action="{$smarty.const.__ACTION__}" method="post">
+                    <table style="margin:20px;color:rgb(255,68,0)">
+                        <tr>
+                            <td>
+                                <span>登录名：</span><br />
+                                <input type="text" class="form-control" placeholder="请填写用户名" name="username" id="uname" required/><br />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span> 登录密码：</span> <br/>
+                                <input type="password" class="form-control"  placeholder="请填写密码" name="password" id="password" required/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="button" value="提交" class="tijiao" id="aaa"/>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span id="span" style="color: #000;font-size: 18px;font-weight: 700;"></span>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+                <span style="left:20px;color:red">还没有账号?<a href="__MODULE__/User/register" style="color:red;">立即注册</a></span>
+                <span style="float:right"><a href="__MODULE__/User/findPasword" style="color:red;">忘记密码....</a></span>
+                <a href="#" class="close"/>Close</a>
+            </div>
+        </div>
+
+    </div>
+    <!-- Mask to cover the whole screen -->
+    <div id="mask"></div>
+</div>

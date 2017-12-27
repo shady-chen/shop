@@ -10,7 +10,7 @@
     <title>添加商品</title>
 	
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="{$smarty.const.CSS_URL}bootstrap.min.css"  type="text/css">
+    <link rel="stylesheet" href="__PUBLIC__/css/bootstrap.min.css"  type="text/css">
 
 	
 
@@ -20,10 +20,10 @@
     <link rel="stylesheet" href="{$smarty.const.FONTS_URL}font-slider.css" type="text/css">
 	
 	<!-- jQuery and Modernizr-->
-	<script src="{$smarty.const.JS_URL}jquery-2.1.1.js"></script>
+	<script src="__PUBLIC__/js/jquery-2.1.1.js"></script>
 	
 	<!-- Core JavaScript Files -->  	 
-    <script src="{$smarty.const.JS_URL}bootstrap.min.js"></script>
+    <script src="__PUBLIC__/js/bootstrap.min.js"></script>
 
     
 </head>
@@ -35,7 +35,7 @@
 		<div class="col-md-12">
 				<table class="table" id="register">
 					<caption><h2>新增商品</h2></caption>
-					  <form method="post" action="{$smarty.const.__CONTROLLER__}/add"  enctype="multipart/form-data">
+					  <form method="post" action="/index.php/Home/Index/add"  enctype="multipart/form-data">
 						
 					  	<tr>
 					  	  <td><label>商品名称</label></td>

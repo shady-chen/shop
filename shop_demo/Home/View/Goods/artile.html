@@ -10,26 +10,26 @@
     <title>Artile</title>
 	
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="{$smarty.const.CSS_URL}bootstrap.min.css"  type="text/css">
+    <link rel="stylesheet" href="__PUBLIC__/css/bootstrap.min.css"  type="text/css">
 	
 	<!-- Custom CSS -->
-    <link rel="stylesheet" href="{$smarty.const.CSS_URL}style.css">
+    <link rel="stylesheet" href="__PUBLIC__/css/style.css">
 	
 	<!-- my CSS -->
-	<link rel="stylesheet" href="{$smarty.const.CSS_URL}my.css">
+	<link rel="stylesheet" href="__PUBLIC__/css/my.css">
 
 	<!-- Custom Fonts -->
     <link rel="stylesheet" href="{$smarty.const.FONT_URL}css/font-awesome.min.css"  type="text/css">
     <link rel="stylesheet" href="{$smarty.const.FONTS_URL}font-slider.css" type="text/css">
 	
 	<!-- jQuery and Modernizr-->
-	<script src="{$smarty.const.JS_URL}jquery-2.1.1.js"></script>
+	<script src="__PUBLIC__/js/jquery-2.1.1.js"></script>
 	
 	<!-- Core JavaScript Files -->  	 
-    <script src="{$smarty.const.JS_URL}bootstrap.min.js"></script>
+    <script src="__PUBLIC__/js/bootstrap.min.js"></script>
 	
 	<!-- 登录框插件js -->
-	<script src="{$smarty.const.JS_URL}index.js"></script>
+	<script src="__PUBLIC__/js/index.js"></script>
 	<!-- 登录框插件 -->
    <!-- <script type="text/javascript" src="http://code.jquery.com/jquery-latest.pack.js"></script> -->
 
@@ -42,20 +42,20 @@
 			<div class="row">
 	
 				<div class="col-md-2" >
-					<div id="logo"><img src="{$smarty.const.IMG_URL}logo.png" /></div>
+					<div id="logo"><img src="__PUBLIC__/images/logo.png" /></div>
 				</div>
 				<div class="col-md-2">
-					<div id="logo" style="width:400px;margin-left:-20px"><img src="{$smarty.const.IMG_URL}top.png" /></div>
+					<div id="logo" style="width:400px;margin-left:-20px"><img src="__PUBLIC__/images/top.png" /></div>
 				</div>
 					<div class="col-md-8" style="float:right;padding-top:10px">
 						<ul class="top-link">
 							<li><span class="glyphicon glyphicon-user"></span></span><span style="color:black;" id="login">{$username}</span></li>
-							<li><a href="{$smarty.const.__MODULE__}/User/register"><span class="glyphicon glyphicon-glass" style></span>注册</a></li>
-							<li><a href="{$smarty.const.__CONTROLLER__}/cart"><span class="glyphicon glyphicon-shopping-cart"></span>购物车</a></li>
-							<li><a href="{$smarty.const.__CONTROLLER__}/favorite"><span class="glyphicon glyphicon-star"></span>收藏夹</a></li>
-							 <li><a href="{$smarty.const.__MODULE__}/User/userInfo"><span class="glyphicon glyphicon-user" style=></span> 个人管理</a></li>
-							<li><a href="{$smarty.const.__CONTROLLER__}/contact"><span class="glyphicon glyphicon-envelope"></span>联系我们</a></li>
-							<li><a href="{$smarty.const.__MODULE__}/Index/logout.du"><span class="glyphicon glyphicon-user"></span>注销</a></li>
+							<li><a href="__MODULE__/User/register"><span class="glyphicon glyphicon-glass" style></span>注册</a></li>
+							<li><a href="/index.php/Home/Index/cart"><span class="glyphicon glyphicon-shopping-cart"></span>购物车</a></li>
+							<li><a href="/index.php/Home/Index/favorite"><span class="glyphicon glyphicon-star"></span>收藏夹</a></li>
+							 <li><a href="__MODULE__/User/userInfo"><span class="glyphicon glyphicon-user" style=></span> 个人管理</a></li>
+							<li><a href="/index.php/Home/Index/contact"><span class="glyphicon glyphicon-envelope"></span>联系我们</a></li>
+							<li><a href="__MODULE__/Index/logout.du"><span class="glyphicon glyphicon-user"></span>注销</a></li>
 						</ul>
 
 						<div class="clo-md-6" style="position: absolute;right:200px;top:50px">
@@ -139,8 +139,8 @@ window.onload = function(){
                     </tr>
                 </table>
                 </form>
-				<span style="left:20px;color:red">还没有账号?<a href="{$smarty.const.__MODULE__}/User/register" style="color:red;">立即注册</a></span>
-                <span style="float:right"><a href="{$smarty.const.__MODULE__}/User/findPasword" style="color:red;">忘记密码....</a></span>
+				<span style="left:20px;color:red">还没有账号?<a href="__MODULE__/User/register" style="color:red;">立即注册</a></span>
+                <span style="float:right"><a href="__MODULE__/User/findPasword" style="color:red;">忘记密码....</a></span>
             	<a href="#" class="close"/>Close</a>
             </div>
         </div> 
@@ -162,16 +162,16 @@ window.onload = function(){
 						<div class="dropdown-menu">
 							<div class="dropdown-inner">
 								<ul class="list-unstyled">
-                                    <li><a href="{$smarty.const.__CONTROLLER__}/goodslist/type/肉类精选">肉类精选</a></li>
-                                    <li><a href="{$smarty.const.__CONTROLLER__}/goodslist/type/粮油米面">粮油米面</a></li>
-                                    <li><a href="{$smarty.const.__CONTROLLER__}/goodslist/type/名茶名酒">名茶名酒</a></li>
-                                    <li><a href="{$smarty.const.__CONTROLLER__}/goodslist/type/果蔬副食">果蔬副食</a></li>
+                                    <li><a href="/index.php/Home/Goods/goodslist/type/肉类精选">肉类精选</a></li>
+                                    <li><a href="/index.php/Home/Goods/goodslist/type/粮油米面">粮油米面</a></li>
+                                    <li><a href="/index.php/Home/Goods/goodslist/type/名茶名酒">名茶名酒</a></li>
+                                    <li><a href="/index.php/Home/Goods/goodslist/type/果蔬副食">果蔬副食</a></li>
                                 </ul>
                                 <ul class="list-unstyled">
-                                    <li><a href="{$smarty.const.__CONTROLLER__}/goodslist/type/水产极品">水产极品</a></li>
-                                    <li><a href="{$smarty.const.__CONTROLLER__}/goodslist/type/野生特产">野生特产</a></li>
-                                    <li><a href="{$smarty.const.__CONTROLLER__}/goodslist/type/滋补保健">滋补保健</a></li>
-                                    <li><a href="{$smarty.const.__CONTROLLER__}/goodslist/type/工艺礼品">工艺礼品</a></li>
+                                    <li><a href="/index.php/Home/Goods/goodslist/type/水产极品">水产极品</a></li>
+                                    <li><a href="/index.php/Home/Goods/goodslist/type/野生特产">野生特产</a></li>
+                                    <li><a href="/index.php/Home/Goods/goodslist/type/滋补保健">滋补保健</a></li>
+                                    <li><a href="/index.php/Home/Goods/goodslist/type/工艺礼品">工艺礼品</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -180,31 +180,31 @@ window.onload = function(){
                         <div class="dropdown-menu">
                             <div class="dropdown-inner">
                                <ul class="list-unstyled">
-                                    <li><a href="{$smarty.const.__CONTROLLER__}/goodslist/from/云南">云南</a></li>
-                                    <li><a href="{$smarty.const.__CONTROLLER__}/goodslist/from/四川">四川</a></li>
-                                    <li><a href="{$smarty.const.__CONTROLLER__}/goodslist/from/重庆">重庆</a></li>
-                                    <li><a href="{$smarty.const.__CONTROLLER__}/goodslist/from/北京">北京</a></li>
-                                    <li><a href="{$smarty.const.__CONTROLLER__}/goodslist/from/山西">山西</a></li>
+                                    <li><a href="/index.php/Home/Goods/goodslist/from/云南">云南</a></li>
+                                    <li><a href="/index.php/Home/Goods/goodslist/from/四川">四川</a></li>
+                                    <li><a href="/index.php/Home/Goods/goodslist/from/重庆">重庆</a></li>
+                                    <li><a href="/index.php/Home/Goods/goodslist/from/北京">北京</a></li>
+                                    <li><a href="/index.php/Home/Goods/goodslist/from/山西">山西</a></li>
                                 </ul>
                                 <ul class="list-unstyled">
-                                    <li><a href="{$smarty.const.__CONTROLLER__}/goodslist/from/天津">天津</a></li>
-                                    <li><a href="{$smarty.const.__CONTROLLER__}/goodslist/from/江苏">江苏</a></li>
-                                    <li><a href="{$smarty.const.__CONTROLLER__}/goodslist/from/浙江">浙江</a></li>
-                                    <li><a href="{$smarty.const.__CONTROLLER__}/goodslist/from/海南">海南</a></li>
-                                    <li><a href="{$smarty.const.__CONTROLLER__}/goodslist/from/湖南">湖南</a></li>
+                                    <li><a href="/index.php/Home/Goods/goodslist/from/天津">天津</a></li>
+                                    <li><a href="/index.php/Home/Goods/goodslist/from/江苏">江苏</a></li>
+                                    <li><a href="/index.php/Home/Goods/goodslist/from/浙江">浙江</a></li>
+                                    <li><a href="/index.php/Home/Goods/goodslist/from/海南">海南</a></li>
+                                    <li><a href="/index.php/Home/Goods/goodslist/from/湖南">湖南</a></li>
                                 </ul>
                                 <ul class="list-unstyled">
-                                    <li><a href="{$smarty.const.__CONTROLLER__}/goodslist/from/福建">福建</a></li>
-                                    <li><a href="{$smarty.const.__CONTROLLER__}/goodslist/from/东三省">东三省</a></li>
-                                    <li><a href="{$smarty.const.__CONTROLLER__}/goodslist/from/西藏">西藏</a></li>
-                                    <li><a href="{$smarty.const.__CONTROLLER__}/goodslist/from/内蒙古">内蒙古</a></li>
-                                    <li><a href="{$smarty.const.__CONTROLLER__}/goodslist/from/新疆">新疆</a></li>
+                                    <li><a href="/index.php/Home/Goods/goodslist/from/福建">福建</a></li>
+                                    <li><a href="/index.php/Home/Goods/goodslist/from/东三省">东三省</a></li>
+                                    <li><a href="/index.php/Home/Goods/goodslist/from/西藏">西藏</a></li>
+                                    <li><a href="/index.php/Home/Goods/goodslist/from/内蒙古">内蒙古</a></li>
+                                    <li><a href="/index.php/Home/Goods/goodslist/from/新疆">新疆</a></li>
                                 </ul>
 							</div> 
 						</div>
 					</li>
-					<li class="dropdown"><a href="{$smarty.const.__CONTROLLER__}/goodstext">特产百科</a></li>
-					<li><a href="{$smarty.const.__CONTROLLER__}/contact">联系我们</a></li>
+					<li class="dropdown"><a href="/index.php/Home/Index/goodstext">特产百科</a></li>
+					<li><a href="/index.php/Home/Index/contact">联系我们</a></li>
 				</ul>
 			</div>
 		</div>
@@ -226,61 +226,4 @@ window.onload = function(){
 	</div>
 </div>
 	
-	<footer>
-		<div class="container">
-			<div class="wrap-footer">
-				<div class="row">
-					<div class="col-md-3 col-footer footer-1">
-						<div class="heading"><h4>新手上路</h4></div>
-						<ul>
-							<li><a href="#">交易条款</a></li>
-							<li><a href="#">会员登录</a></li>
-							<li><a href="#">找回密码</a></li>
-							<li><a href="#">免费注册</a></li>
-						</ul>
-					</div>
-					<div class="col-md-3 col-footer footer-2">
-						<div class="heading"><h4>付款方式</h4></div>
-						<ul>
-							<li><a href="#">货到付款</a></li>
-							<li><a href="#">网上支付</a></li>
-							<li><a href="#">银行汇款</a></li>
-						</ul>
-					</div>
-					<div class="col-md-3 col-footer footer-3">
-						<div class="heading"><h4>售后服务</h4></div>
-						<ul>
-							<li><a href="#">维权说明</a></li>
-							<li><a href="#">安全与保密</a></li>
-							<li><a href="#">退换货流程</a></li>
-							<li><a href="#">退款方式及时间</a></li>
-							<li><a href="#">退换货须知</a></li>
-						</ul>
-					</div>
-					<div class="col-md-3 col-footer footer-4">
-						<div class="heading"><h4>联系我们</h4></div>
-						<ul>
-							<li><span class="glyphicon glyphicon-home"></span>山西省太原市中北大学</li>
-							<li><span class="glyphicon glyphicon-earphone"></span>+87 3922110</li>
-							<li><span class="glyphicon glyphicon-envelope"></span>moon_light_d@outlook.com</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="copyright">
-			<div class="foot">
-					
-				Copyright &copy; 御帝 2016, All Rights Reserved  <img src="{$smarty.const.IMG_URL}foot.gif"  alt="版权" style="vertical-align:middle;" /> 京ICP证041189号 特产食品经营许可证 
-			</div>
-		</div>
-	</footer>
-
-
-<div class="returnTop">
-	<a href="#top">
-		<span class="glyphicon glyphicon-upload" id="scrollto"></span>
-	</a>
-</div>
-</body>
-</html>
+	<include file="Home/View/public/footer.html" />

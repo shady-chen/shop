@@ -1,0 +1,111 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="">
+    <meta name="author" content="">
+	
+    <title>changeQuestion</title>
+	
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/Public/css/bootstrap.min.css"  type="text/css">
+	
+	<!-- Custom CSS -->
+    <link rel="stylesheet" href="/Public/css/style.css">
+	
+	<!-- my CSS -->
+	<link rel="stylesheet" href="/Public/css/my.css">
+
+	<!-- Custom Fonts -->
+    <link rel="stylesheet" href="<?php echo ($smarty["const"]["FONT_URL"]); ?>css/font-awesome.min.css"  type="text/css">
+    <link rel="stylesheet" href="<?php echo ($smarty["const"]["FONTS_URL"]); ?>font-slider.css" type="text/css">
+	
+	<!-- jQuery and Modernizr-->
+	<script src="/Public/js/jquery-2.1.1.js"></script>
+	
+	<!-- Core JavaScript Files -->  	 
+    <script src="/Public/js/bootstrap.min.js"></script>
+	
+	<!-- 登录框插件js -->
+	<script src="/Public/js/index.js"></script>
+
+
+</head>
+
+<body>
+	
+
+<script>
+	function check(){
+		if(confirm("请记好您新的验证问题以及答案喔")){
+			return true;
+		}else{
+			return false;
+		}
+	}
+</script>
+	<div id="page-content" class="single-page">
+		<div class="container" style="margin-left:50px;">
+			<div class="row">
+				<div class="col-lg-12">
+					<ul class="breadcrumb">
+						<li style="color:rgb(280,68,0)">修改验证问题</li>
+					</ul>
+				</div>
+			</div>
+	
+			<div class="row">
+				<div class="col-md-12">
+					<div class="heading"><h2 style="color:rgb(280,69,0);padding-left:200px">设置新验证问题~</h2></div>
+				</div>
+				<div class="col-md-12" style="">
+					<table class="table" id="register">
+						<tr>
+							<td><b>旧的问题及答案</b></td>
+							<td>问题：<?php echo ($info[0]); ?></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td>答案：<?php echo ($info[1]); ?></td>
+						</tr>
+
+
+					  <form method="post" action="/index.php/Home/User/changeTwo" id="register" name="form" onsubmit="return check()">
+					  	<tr>
+					  	  <td><label>新的验证问题</label></td>
+					  	  <td>
+								<select name="question">
+									<option value="1">您小学的名称？</option>
+									<option value="2">您中学的名字？</option>
+									<option value="3">您大学的名字？</option>
+									<option value="4">您最爱吃的食物？</option>
+									<option value="5">您恋人的名字？</option>
+								</select>
+						   </td>
+						</tr>
+						<tr>
+							<td></td>
+							<td><input type="text" class="form-control" placeholder="请填写答案" name="answer" required></td>
+						</tr>
+						
+						<tr>
+							<td></td>
+							<td>
+							<input type="submit" style="background:rgb(280,68,0);color:white;width:150px;height:40px;border-radius: 10px;margin-left:80px" value="提交">
+							<input type="reset" style="background:rgb(280,68,0);color:white;width:150px;height:40px;border-radius: 10px" value="重写">
+							</td>
+						</tr>
+					</form>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+
+
+</body>
+</html>

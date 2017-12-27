@@ -10,7 +10,7 @@ return array(
 	'MODULE_ALLOW_LIST'  => array('Home','Admin'), //定义可访问的分组列表
 
 //Smarty模板引擎替换
-	'TMPL_ENGINE_TYPE'    =>  'Smarty', //默认模板引擎
+	'TMPL_ENGINE_TYPE'    =>  'Think', //默认模板引擎
  
 	// 数据库设置
     'DB_TYPE'               =>  'mysql',     // 数据库类型

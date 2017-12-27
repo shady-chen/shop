@@ -332,6 +332,7 @@ A;
 				echo <<<A
 				<script>
 				alert("提交成功，感谢您的建议");
+				window.location.href='/index.php/Home/Goods/contact';
 				</script>
 A;
 			}
@@ -363,6 +364,7 @@ A;
 			echo <<<A
 			<script>
 				alert("添加成功");
+				window.location.href='/index.php/Home/Goods/address';
 			</script>
 A;
 		}
@@ -374,6 +376,7 @@ A;
 			echo <<<A
 			<script>
 				alert("删除成功");
+				window.location.href='/index.php/Home/Goods/address';
 			</script>
 A;
 		}

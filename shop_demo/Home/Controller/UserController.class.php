@@ -119,6 +119,7 @@ A;
 					window.close();
 				</script>
 HTML;
+                return;
 			}else{
 				echo <<<HTML
 				<script>
@@ -126,6 +127,8 @@ HTML;
 					window.close();
 				</script>
 HTML;
+
+				return;
 			}
 
 		}

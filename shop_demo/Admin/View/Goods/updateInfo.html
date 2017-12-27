@@ -10,7 +10,7 @@
     <title>更改商品信息</title>
 	
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="{$smarty.const.CSS_URL}bootstrap.min.css"  type="text/css">
+    <link rel="stylesheet" href="__PUBLIC__/css/bootstrap.min.css"  type="text/css">
 
 	
 
@@ -20,10 +20,10 @@
     <link rel="stylesheet" href="{$smarty.const.FONTS_URL}font-slider.css" type="text/css">
 	
 	<!-- jQuery and Modernizr-->
-	<script src="{$smarty.const.JS_URL}jquery-2.1.1.js"></script>
+	<script src="__PUBLIC__/js/jquery-2.1.1.js"></script>
 	
 	<!-- Core JavaScript Files -->  	 
-    <script src="{$smarty.const.JS_URL}bootstrap.min.js"></script>
+    <script src="__PUBLIC__/js/bootstrap.min.js"></script>
 
     <script src="{$smarty.const.ADMIN_JS}shopAdmin.js"></script>
 
@@ -36,12 +36,12 @@
 		<div class="col-md-12">
 				<table class="table" id="register">
 					<caption><h2>更改商品信息</h2></caption>
-					  <form method="post" action="{$smarty.const.__CONTROLLER__}/update"  enctype="multipart/form-data" onsubmit="return checkForm();">
+					  <form method="post" action="/index.php/Home/Index/update"  enctype="multipart/form-data" onsubmit="return checkForm();">
 						<input type="hidden" value="{$info['gd_id']}" name="gd_id">
 					  	<tr>
 					  	  <td><label>商品名称</label></td>
 					  	  <td>
-								<input type="text" class="form-control" placeholder="{$info['gd_name']}" name="gd_name" required>
+								<input type="text" class="form-control" placeholder="{$info['gd_name']}" value="{$info['gd_name']}" name="gd_name" required>
 		
 								
 						   </td>
@@ -65,27 +65,27 @@
 						<tr>
 							<td><label>商城价格</label></td>
 							<td>
-							<input type="text" class="form-control" placeholder="{$info['gd_price_self']}" name="gd_self_price" required>
+							<input type="text" class="form-control" placeholder="{$info['gd_price_self']}" value="{$info['gd_price_self']}" name="gd_self_price" required>
 							</td>
 						</tr>
 						<tr>
 							<td><label>市场价格</label></td>
 							<td>
-								<input type="text" class="form-control" placeholder="{$info['gd_price_other']}" name="gd_other_price" required>
+								<input type="text" class="form-control" placeholder="{$info['gd_price_other']}" value="{$info['gd_price_other']}" name="gd_other_price" required>
 								<span id="passwordTwoSpan"></span>
 							</td>
 						</tr>
 						<tr>
 							<td><label>库存</label></td>
 							<td>
-								<input type="text" class="form-control" placeholder="{$info['gd_num']}" name="gd_num" required> 
+								<input type="text" class="form-control" placeholder="{$info['gd_num']}" value="{$info['gd_num']}" name="gd_num" required>
 								<span id="emailSpan"></span>
 							</td>
 						</tr>
 						<tr>
 							<td><label>商品重量</label></td>
 							<td>
-								<input type="text" class="form-control" placeholder="{$info['gd_weight']}" name="gd_weight" required>
+								<input type="text" class="form-control" placeholder="{$info['gd_weight']}" value="{$info['gd_weight']}" name="gd_weight" required>
 								<span id="phoneSpan"></span>
 							</td>
 						</tr>

@@ -10,22 +10,22 @@
     <title>公告列表</title>
 	
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="{$smarty.const.CSS_URL}bootstrap.min.css"  type="text/css">
+    <link rel="stylesheet" href="__PUBLIC__/css/bootstrap.min.css"  type="text/css">
 
 	
 	<!--  CSS -->
 	<link rel="stylesheet" href="{$smarty.const.ADMIN_CSS}admin.css">
-	<link rel="stylesheet" href="{$smarty.const.CSS_URL}style.css">
+	<link rel="stylesheet" href="__PUBLIC__/css/style.css">
 
 	<!-- Custom Fonts -->
     <link rel="stylesheet" href="{$smarty.const.FONT_URL}css/font-awesome.min.css"  type="text/css">
     <link rel="stylesheet" href="{$smarty.const.FONTS_URL}font-slider.css" type="text/css">
 	
 	<!-- jQuery and Modernizr-->
-	<script src="{$smarty.const.JS_URL}jquery-2.1.1.js"></script>
+	<script src="__PUBLIC__/js/jquery-2.1.1.js"></script>
 	
 	<!-- Core JavaScript Files -->  	 
-    <script src="{$smarty.const.JS_URL}bootstrap.min.js"></script>
+    <script src="__PUBLIC__/js/bootstrap.min.js"></script>
 
     
 </head>
@@ -58,8 +58,8 @@
 						<td>{$v['nc_title']}</td>
 						<td>{$v['nc_time']}</td>
 						<td>
-							<a class='btn btn-info' href='{$smarty.const.__CONTROLLER__}/noticeInfo/act/select/nc_id/{$v["nc_id"]}'>查看详情</a>
-							<a class='btn btn-danger' href='{$smarty.const.__CONTROLLER__}/noticeInfo/act/delete/nc_id/{$v["nc_id"]}'>删除</a>
+							<a class='btn btn-info' href='/index.php/Home/Index/noticeInfo/act/select/nc_id/{$v["nc_id"]}'>查看详情</a>
+							<a class='btn btn-danger' href='/index.php/Home/Index/noticeInfo/act/delete/nc_id/{$v["nc_id"]}'>删除</a>
 						</td>
 					</tr>
 				{/foreach}	

@@ -76,8 +76,8 @@
 			<dt><i class="Hui-iconfont">&#xe616;</i> 个人信息管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
 			<dd>
 				<ul>
-					<li><a data-href="{$smarty.const.__MODULE__}/User/admin" data-title="管理员信息" href="javascript:void(0)">管理员信息</a></li>
-					<li><a data-href="{$smarty.const.__MODULE__}/User/userInfo" data-title="会员信息" href="javascript:void(0)">会员信息</a></li>
+					<li><a data-href="__MODULE__/User/admin" data-title="管理员信息" href="javascript:void(0)">管理员信息</a></li>
+					<li><a data-href="__MODULE__/User/userInfo" data-title="会员信息" href="javascript:void(0)">会员信息</a></li>
 			</ul>
 		</dd>
 	</dl>
@@ -85,8 +85,8 @@
 			<dt><i class="Hui-iconfont">&#xe613;</i> 商品信息管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
 			<dd>
 				<ul>
-					<li><a data-href="{$smarty.const.__MODULE__}/Goods/goodList" data-title="查看商品" href="javascript:void(0)">查看商品</a></li>
-					<li><a data-href="{$smarty.const.__MODULE__}/Goods/addGood" data-title="添加商品" href="javascript:void(0)">添加商品</a></li>
+					<li><a data-href="__MODULE__/Goods/goodList" data-title="查看商品" href="javascript:void(0)">查看商品</a></li>
+					<li><a data-href="__MODULE__/Goods/addGood" data-title="添加商品" href="javascript:void(0)">添加商品</a></li>
 			</ul>
 		</dd>
 	</dl>
@@ -94,7 +94,7 @@
 			<dt><i class="Hui-iconfont">&#xe620;</i> 订单信息管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
 			<dd>
 				<ul>
-					<li><a data-href="{$smarty.const.__MODULE__}/Goods/selectAllOrder" data-title="查看所有订单" href="javascript:void(0)">查看所有订单</a></li>
+					<li><a data-href="__MODULE__/Goods/selectAllOrder" data-title="查看所有订单" href="javascript:void(0)">查看所有订单</a></li>
 			</ul>
 		</dd>
 	</dl>
@@ -102,8 +102,8 @@
 			<dt><i class="Hui-iconfont">&#xe622;</i> 公共信息管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
 			<dd>
 				<ul>
-					<li><a data-href="{$smarty.const.__MODULE__}/Goods/selectAllNotice" data-title="查看公告" href="javascript:;">查看公告</a></li>
-					<li><a data-href="{$smarty.const.__MODULE__}/Goods/addNotice" data-title="新增公告" href="javascript:void(0)">新增公告</a></li>
+					<li><a data-href="__MODULE__/Goods/selectAllNotice" data-title="查看公告" href="javascript:;">查看公告</a></li>
+					<li><a data-href="__MODULE__/Goods/addNotice" data-title="新增公告" href="javascript:void(0)">新增公告</a></li>
 			</ul>
 		</dd>
 	</dl>
@@ -124,7 +124,7 @@
 	<div id="iframe_box" class="Hui-article">
 		<div class="show_iframe">
 			<div style="display:none" class="loading"></div>
-			<iframe scrolling="yes" frameborder="0" src="{$smarty.const.__CONTROLLER__}/right"></iframe>
+			<iframe scrolling="yes" frameborder="0" src="/index.php/Home/Index/right"></iframe>
 	</div>
 </div>
 </section>

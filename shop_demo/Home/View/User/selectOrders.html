@@ -10,21 +10,20 @@
     <title>selectOrders</title>
 	
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="{$smarty.const.CSS_URL}bootstrap.min.css"  type="text/css">
+    <link rel="stylesheet" href="__PUBLIC__/css/bootstrap.min.css"  type="text/css">
 	
 	<!-- Custom CSS -->
-    <link rel="stylesheet" href="{$smarty.const.CSS_URL}style.css">
+    <link rel="stylesheet" href="__PUBLIC__/css/style.css">
 	
 	<!-- my CSS -->
-	<link rel="stylesheet" href="{$smarty.const.CSS_URL}my.css">
+	<link rel="stylesheet" href="__PUBLIC__/css/my.css">
 
 	<!-- Custom Fonts -->
-    <link rel="stylesheet" href="{$smarty.const.FONT_URL}css/font-awesome.min.css"  type="text/css">
-    <link rel="stylesheet" href="{$smarty.const.FONTS_URL}font-slider.css" type="text/css">
-	
-	
-	
-	
+
+	<link rel="stylesheet" href="__PUBLIC__/font-awesome/css/font-awesome.min.css"  type="text/css">
+	<link rel="stylesheet" href="__PUBLIC__/fonts/font-slider.css" type="text/css">
+
+	<script src="__PUBLIC__/js/jquery-2.1.1.js"></script>
 
 
 </head>
@@ -49,11 +48,11 @@
 				</div>
 				<div class="col-md-12" id="selectOrders">
 					<center>
-						<ul>
-						{assign var="i" value="0"}
-							{foreach $info as $v}
+						<ul id="list">
 
-								<li id="li{$i}" onclick="showDiv('div{$i}')">
+							<volist name="info" id="v">
+
+								<li id="li{$i}" >
 									<span style="margin-left:10px">订单编号：{$v['od_id']}</span>
 									<span>订单总价：{$v['od_price']}</span>
 									<span>订单时间：{$v['od_time']}</span>
@@ -64,15 +63,17 @@
 										<table class="table table-border" style="width:100%">
 											<tr>
 												<td style="color:rgb(280,68,0);font-weight:bolder">商品名称</td>
-												{foreach $v['od_good_id'] as $value}
+
+												<volist name="v['od_good_id']" id="value">
 													<td>{$value}</td>
-												{/foreach}
+												</volist>
+
 											</tr>
 											<tr>
 												<td style="color:rgb(280,68,0);font-weight:bolder">购买数量</td>
-												{foreach $v['od_buy_count'] as $value}
+												<volist name="v['od_buy_count']" id="value">
 													<td>{$value}</td>
-												{/foreach}
+												</volist>
 											</tr>
 										</table>
 									</div>
@@ -95,8 +96,8 @@
 										</tr>
 									</table>
 								</div>
-								{$i = $i+1}
-							{/foreach}
+
+							</volist>
 						</ul>	
 					</center>
 				</div>
@@ -105,22 +106,29 @@
 	</div>
 	
 <script>
-//个人信息界面展示订单信息
- function showDiv(div){
- 	var body = document.getElementById("selectOrders");
- 	var li = body.getElementsByTagName('li');
- 	 
+	$('li').click(function(){
+        $('#list>div').hide();
+	   $(this).next().toggle();
 
- 	for(var i=0;i<li.length;i++){
- 		var x = "div"+i;
- 		if(x == div){
- 			document.getElementById(x).style.display = "block";
- 		}else{
- 			var x = "div"+i;
- 			document.getElementById(x).style.display = "none";
- 		}
- 	}
- }
+	})
+//个人信息界面展示订单信息
+//  function showDiv(div){
+//  	var body = document.getElementById("selectOrders");
+//  	var li = body.getElementsByTagName('li');
+//
+//
+//  	for(var i=0;i<li.length;i++){
+//  		var x = "div"+i;
+//  		if(x == div){
+//  			document.getElementById(x).style.display = "block";
+//  		}else{
+//  			var x = "div"+i;
+//  			document.getElementById(x).style.display = "none";
+//  		}
+//  	}
+//
+//
+//  }
 </script>
 
 

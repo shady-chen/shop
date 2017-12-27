@@ -89,11 +89,11 @@ die();
 		if($act == "update"){ //更改商品信息
 				echo <<<A
 <script>
-	window.open('http://localhost/index.php/Admin/Goods/updateInfo/id/$gd_id','修改商品信息','width=750,height=800,top=100,left=200,resizable=yes');
+	// window.open('/index.php/Admin/Goods/updateInfo/id/$gd_id','修改商品信息','width=750,height=800,top=100,left=200,resizable=yes');
+	window.location.href = '/index.php/Admin/Goods/updateInfo/id/$gd_id';    
 </script>
 A;
 
-		echo "更新信息中...";
 
 		}else if($act == "delete"){  //删除商品
 			

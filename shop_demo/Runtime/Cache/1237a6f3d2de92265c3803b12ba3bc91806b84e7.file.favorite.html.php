@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2017-12-27 00:27:23
+<?php /* Smarty version Smarty-3.1.6, created on 2017-12-27 20:32:21
          compiled from "D:/techan/shop_demo/Home/View\Goods\favorite.html" */ ?>
 <?php /*%%SmartyHeaderCode:315775a42786bcb1137-80490806%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '1237a6f3d2de92265c3803b12ba3bc91806b84e7' => 
     array (
       0 => 'D:/techan/shop_demo/Home/View\\Goods\\favorite.html',
-      1 => 1514293412,
+      1 => 1514377939,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.6',
+  'unifunc' => 'content_5a42786bdfef2',
   'variables' => 
   array (
     'username' => 0,
@@ -22,8 +24,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'v' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.6',
-  'unifunc' => 'content_5a42786bdfef2',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5a42786bdfef2')) {function content_5a42786bdfef2($_smarty_tpl) {?><!DOCTYPE html>
 <html lang="en">
@@ -253,16 +253,7 @@ $_smarty_tpl->tpl_vars['v']->_loop = true;
                             <?php } ?>
                             <!-- smarty遍历终点-->
                             </div>
-                        </div>              
-                    <!--  分页页码显示 --> 
-                    <div class="row text-center">
-                        <ul class="pagination"> <li class="active"><a href="#">1</a></li>
-                          <li><a href="#">2</a></li>
-                          <li><a href="#">3</a></li>
-                          <li><a href="#">4</a></li>
-                          <li><a href="#">5</a></li>
-                        </ul>
-                    </div>
+                        </div>
                 </div>
                 <div id="sidebar" class="col-md-4">
                         <div class="widget wid-categories">

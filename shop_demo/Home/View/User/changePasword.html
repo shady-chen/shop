@@ -10,26 +10,24 @@
     <title>changePassword</title>
 	
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="{$smarty.const.CSS_URL}bootstrap.min.css"  type="text/css">
+    <link rel="stylesheet" href="__PUBLIC__/css/bootstrap.min.css"  type="text/css">
 	
 	<!-- Custom CSS -->
-    <link rel="stylesheet" href="{$smarty.const.CSS_URL}style.css">
+    <link rel="stylesheet" href="__PUBLIC__/css/style.css">
 	
 	<!-- my CSS -->
-	<link rel="stylesheet" href="{$smarty.const.CSS_URL}my.css">
+	<link rel="stylesheet" href="__PUBLIC__/css/my.css">
 
 	<!-- Custom Fonts -->
-    <link rel="stylesheet" href="{$smarty.const.FONT_URL}css/font-awesome.min.css"  type="text/css">
-    <link rel="stylesheet" href="{$smarty.const.FONTS_URL}font-slider.css" type="text/css">
-	
+
 	<!-- jQuery and Modernizr-->
-	<script src="{$smarty.const.JS_URL}jquery-2.1.1.js"></script>
+	<script src="__PUBLIC__/js/jquery-2.1.1.js"></script>
 	
 	<!-- Core JavaScript Files -->  	 
-    <script src="{$smarty.const.JS_URL}bootstrap.min.js"></script>
+    <script src="__PUBLIC__/js/bootstrap.min.js"></script>
 	
 	<!-- 登录框插件js -->
-	<script src="{$smarty.const.JS_URL}index.js"></script>
+	<script src="__PUBLIC__/js/index.js"></script>
 
 
 </head>
@@ -41,10 +39,10 @@
 			<div>
 	
 				<div style="float:left;">
-					<div id="logo"><img src="{$smarty.const.IMG_URL}logo.png" /></div>
+					<div id="logo"><img src="__PUBLIC__/images/logo.png" /></div>
 				</div>
 				<div style="float:left;margin:50px 0 0 -20px;">
-					<div id="logo" style="width:400px;margin-left:-20px"><img src="{$smarty.const.IMG_URL}top.png" /></div>
+					<div id="logo" style="width:400px;margin-left:-20px"><img src="__PUBLIC__/images/top.png" /></div>
 				</div>
 					
 			</div>
@@ -84,7 +82,7 @@
 				</div>
 				<div class="col-md-12" style="">
 					<table class="table" id="register">
-					  <form method="post" action="{$smarty.const.__CONTROLLER__}/change" id="register" name="form" onsubmit="return check()">
+					  <form method="post" action="/index.php/Home/User/change" id="register" name="form" onsubmit="return check()">
 					  	<tr>
 					  	  <td><label>新的密码</label></td>
 					  	  <td>
@@ -112,7 +110,7 @@
 		<div class="copyright">
 			<div class="foot">
 					
-				Copyright &copy; 御帝 2016, All Rights Reserved  <img src="{$smarty.const.IMG_URL}foot.gif"  alt="版权" style="vertical-align:middle;" /> 京ICP证041189号 特产食品经营许可证 
+				Copyright &copy; 御帝 2016, All Rights Reserved  <img src="__PUBLIC__/images/foot.gif"  alt="版权" style="vertical-align:middle;" /> 京ICP证041189号 特产食品经营许可证
 			</div>
 		</div>
 	</footer>

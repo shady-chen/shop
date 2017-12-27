@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2017-12-26 22:14:28
+<?php /* Smarty version Smarty-3.1.6, created on 2017-12-27 20:26:31
          compiled from "D:/techan/shop_demo/Admin/View\Goods\goodList.html" */ ?>
 <?php /*%%SmartyHeaderCode:107105a425944c725b5-72753301%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '321139c09f0afedde77b164712602f847e8eb1e7' => 
     array (
       0 => 'D:/techan/shop_demo/Admin/View\\Goods\\goodList.html',
-      1 => 1495865903,
+      1 => 1514377530,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.6',
+  'unifunc' => 'content_5a425944d0985',
   'variables' => 
   array (
     'info' => 0,
@@ -22,8 +24,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'page' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.6',
-  'unifunc' => 'content_5a425944d0985',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5a425944d0985')) {function content_5a425944d0985($_smarty_tpl) {?><!DOCTYPE html>
 <html lang="en">

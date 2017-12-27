@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2017-12-26 23:37:57
+<?php /* Smarty version Smarty-3.1.6, created on 2017-12-27 21:12:32
          compiled from "D:/techan/shop_demo/Home/View\Index\index.html" */ ?>
 <?php /*%%SmartyHeaderCode:28545a426cd555d7e9-99907607%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'a97f59d9465f5b3d2ea0c06594cab7e747084cb6' => 
     array (
       0 => 'D:/techan/shop_demo/Home/View\\Index\\index.html',
-      1 => 1514293412,
+      1 => 1514379972,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.6',
+  'unifunc' => 'content_5a426cd57a574',
   'variables' => 
   array (
     'username' => 0,
@@ -27,8 +29,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'arr4' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.6',
-  'unifunc' => 'content_5a426cd57a574',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5a426cd57a574')) {function content_5a426cd57a574($_smarty_tpl) {?><!DOCTYPE html>
 <html lang="en">
@@ -93,7 +93,7 @@ top.png" /></div>
 						<ul class="top-link">
 							<li><span class="glyphicon glyphicon-user"></span><span style="color:black;" id="login"><?php echo $_smarty_tpl->tpl_vars['username']->value;?>
 </span></li>
-							<li><a href="<?php echo @__MODULE__;?>
+							<li id="register"><a href="<?php echo @__MODULE__;?>
 /User/register"><span class="glyphicon glyphicon-glass" style></span>注册</a></li>
 							<li><a href="<?php echo @__MODULE__;?>
 /Goods/cart/act/show""><span class="glyphicon glyphicon-shopping-cart"></span>购物车</a></li>
@@ -139,6 +139,7 @@ window.onload = function(){
 					$('#mask').hide();
 					$('.window').hide();
 					aaa.innerHTML = name+",欢迎您";
+					$('#register').hide();
 				}
 				
 			}
@@ -151,53 +152,7 @@ window.onload = function(){
 </script>
 
 <!-- 登录框 -->
-	<div id="boxes">
-	<div id="dialog" class="window">
-		<div class="login">
-        	<div class="login_div">
-                <div class="title">
-                    田野间特产商城欢迎您！
-                </div>
-                <form action="<?php echo @__ACTION__;?>
-" method="post">
-                <table style="margin:20px;color:rgb(255,68,0)">
-                    <tr>
-                        <td>
-                            <span>登录名：</span><br />
-                            <input type="text" class="form-control" placeholder="请填写用户名" name="username" id="uname" required/><br />
-                        </td>
-                	</tr>
-                    <tr>
-                        <td>
-                           <span> 登录密码：</span> <br/>
-                            <input type="password" class="form-control"  placeholder="请填写密码" name="password" id="password" required/>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <input type="button" value="提交" class="tijiao" id="aaa"/>
-                            	
-                        </td>
-                    </tr>	
-                    <tr>
-                    	<td>
-                    		<span id="span"></span>
-                    	</td>
-                    </tr>
-                </table>
-                </form>
-				<span style="left:20px;color:red">还没有账号?<a href="<?php echo @__MODULE__;?>
-/User/register" style="color:red;">立即注册</a></span>
-                <span style="float:right"><a href="<?php echo @__MODULE__;?>
-/User/findPasword" style="color:red;">忘记密码....</a></span>
-            	<a href="#" class="close"/>Close</a>
-            </div>
-        </div> 
-
-</div>
-<!-- Mask to cover the whole screen -->
-  <div id="mask"></div>
-</div>
+	<include file="../shop_demo/Home/View/public/login.html" />
     <nav id="menu" class="navbar">
 		<div class="container">
 			<div class="collapse navbar-collapse navbar-ex1-collapse">

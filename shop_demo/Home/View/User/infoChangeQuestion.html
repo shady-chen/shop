@@ -10,26 +10,26 @@
     <title>changeQuestion</title>
 	
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="{$smarty.const.CSS_URL}bootstrap.min.css"  type="text/css">
+    <link rel="stylesheet" href="__PUBLIC__/css/bootstrap.min.css"  type="text/css">
 	
 	<!-- Custom CSS -->
-    <link rel="stylesheet" href="{$smarty.const.CSS_URL}style.css">
+    <link rel="stylesheet" href="__PUBLIC__/css/style.css">
 	
 	<!-- my CSS -->
-	<link rel="stylesheet" href="{$smarty.const.CSS_URL}my.css">
+	<link rel="stylesheet" href="__PUBLIC__/css/my.css">
 
 	<!-- Custom Fonts -->
     <link rel="stylesheet" href="{$smarty.const.FONT_URL}css/font-awesome.min.css"  type="text/css">
     <link rel="stylesheet" href="{$smarty.const.FONTS_URL}font-slider.css" type="text/css">
 	
 	<!-- jQuery and Modernizr-->
-	<script src="{$smarty.const.JS_URL}jquery-2.1.1.js"></script>
+	<script src="__PUBLIC__/js/jquery-2.1.1.js"></script>
 	
 	<!-- Core JavaScript Files -->  	 
-    <script src="{$smarty.const.JS_URL}bootstrap.min.js"></script>
+    <script src="__PUBLIC__/js/bootstrap.min.js"></script>
 	
 	<!-- 登录框插件js -->
-	<script src="{$smarty.const.JS_URL}index.js"></script>
+	<script src="__PUBLIC__/js/index.js"></script>
 
 
 </head>
@@ -72,7 +72,7 @@
 						</tr>
 
 
-					  <form method="post" action="{$smarty.const.__CONTROLLER__}/changeTwo" id="register" name="form" onsubmit="return check()">
+					  <form method="post" action="/index.php/Home/User/changeTwo" id="register" name="form" onsubmit="return check()">
 					  	<tr>
 					  	  <td><label>新的验证问题</label></td>
 					  	  <td>

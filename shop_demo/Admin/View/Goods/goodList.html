@@ -10,7 +10,7 @@
     <title>goodList</title>
 	
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="{$smarty.const.CSS_URL}bootstrap.min.css"  type="text/css">
+    <link rel="stylesheet" href="__PUBLIC__/css/bootstrap.min.css"  type="text/css">
 
 	
 	<!--  CSS -->
@@ -22,10 +22,10 @@
     <link rel="stylesheet" href="{$smarty.const.FONTS_URL}font-slider.css" type="text/css">
 	
 	<!-- jQuery and Modernizr-->
-	<script src="{$smarty.const.JS_URL}jquery-2.1.1.js"></script>
+	<script src="__PUBLIC__/js/jquery-2.1.1.js"></script>
 	
 	<!-- Core JavaScript Files -->  	 
-    <script src="{$smarty.const.JS_URL}bootstrap.min.js"></script>
+    <script src="__PUBLIC__/js/bootstrap.min.js"></script>
 
     
 </head>
@@ -66,8 +66,8 @@
 						<td>{$v['gd_from']}</td>
 
 						<td>
-							<a class='btn btn-info' href='{$smarty.const.__CONTROLLER__}/operate/act/update/gd_id/{$v["gd_id"]}'>更改</a>
-							<a class='btn btn-danger' href='{$smarty.const.__CONTROLLER__}/operate/act/delete/gd_id/{$v["gd_id"]}'>删除</a>
+							<a class='btn btn-info' href='/index.php/Home/Index/operate/act/update/gd_id/{$v["gd_id"]}'>更改</a>
+							<a class='btn btn-danger' href='/index.php/Home/Index/operate/act/delete/gd_id/{$v["gd_id"]}'>删除</a>
 						</td>
 					</tr>
 				{/foreach}	

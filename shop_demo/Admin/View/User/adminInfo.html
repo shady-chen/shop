@@ -10,13 +10,13 @@
     <title>修改管理员信息</title>
 	
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="{$smarty.const.CSS_URL}bootstrap.min.css"  type="text/css">
+    <link rel="stylesheet" href="__PUBLIC__/css/bootstrap.min.css"  type="text/css">
 	
 	<!-- Custom CSS -->
-    <link rel="stylesheet" href="{$smarty.const.CSS_URL}style.css">
+    <link rel="stylesheet" href="__PUBLIC__/css/style.css">
 	
 	<!-- my CSS -->
-	<link rel="stylesheet" href="{$smarty.const.CSS_URL}my.css">
+	<link rel="stylesheet" href="__PUBLIC__/css/my.css">
 
 	<!-- Custom Fonts -->
     <link rel="stylesheet" href="{$smarty.const.FONT_URL}css/font-awesome.min.css"  type="text/css">
@@ -45,7 +45,7 @@
 						<div class="col-md-8">
 						 	{if $act == "changeName"}
 						 		<label>请输入新的账号名称并谨记:</label>
-						 		<form action="{$smarty.const.__CONTROLLER__}/change" method="post" class="form">
+						 		<form action="/index.php/Home/User/change" method="post" class="form">
 						 			<input type="text" name='newName' required>
 						 			<input type="hidden" value="{$act}" name="act">
 						 			<input type="hidden" value="{$id}" name="id">
@@ -53,7 +53,7 @@
 						 		</form>
 						 	{else}
 						 		请输入新的密码并谨记:
-						 		<form action="{$smarty.const.__CONTROLLER__}/change" method="post" class="form">
+						 		<form action="/index.php/Home/User/change" method="post" class="form">
 						 			<input type="text" name='newPasword' required>
 						 			<input type="hidden" value="{$act}" name="act">
 						 			<input type="hidden" value="{$id}" name="id">

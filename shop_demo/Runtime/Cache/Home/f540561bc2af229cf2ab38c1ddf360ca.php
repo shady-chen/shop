@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>田野间商城</title>
+    <title>忆家乡商城</title>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/Public/css/bootstrap.min.css"  type="text/css">
@@ -51,7 +51,7 @@
                 <ul class="top-link">
                     <li><span class="glyphicon glyphicon-user"></span><span style="color:black;" id="login"><?php echo ($username); ?></span></li>
                     <li id="register"><a href="/index.php/Home/User/register"><span class="glyphicon glyphicon-glass" style></span>注册</a></li>
-                    <li><a href="/index.php/Home/Goods/cart/act/show""><span class="glyphicon glyphicon-shopping-cart"></span>购物车</a></li>
+                    <li><a href="/index.php/Home/Goods/cart/act/show"><span class="glyphicon glyphicon-shopping-cart"></span>购物车</a></li>
                     <li><a href="/index.php/Home/Goods/favorite"><span class="glyphicon glyphicon-star"></span>收藏夹</a></li>
                     <li><a href="/index.php/Home/User/userInfo"><span class="glyphicon glyphicon-user" style=></span>个人管理</a></li>
                     <li><a href="/index.php/Home/Goods/contact"><span class="glyphicon glyphicon-envelope"></span>联系我们</a></li>
@@ -251,7 +251,7 @@
                 <div class="col-xs-7">
                   <table class="table">
                             <h4 style="color:rgb(280,68,0)">选择收货地址
-                            <span style="font-size: 16px;margin-left:350px"><a href="/index.php/Home/Index/address" class="btn btn-default btn-sm active" role="button">管理收货地址</a></span>
+                            <span style="font-size: 16px;margin-left:350px"><a href="/index.php/Home/Goods/address" class="btn btn-default btn-sm active" role="button">管理收货地址</a></span>
                             </h4>
                             <tr>
                                 <th scope="col">收货人姓名</th>
@@ -260,14 +260,13 @@
                                 <th></th>
                             </tr>
                             <form name="form" action="" method="post" id="form"> 
-                        {if $cos == 1}
-                                  <tr>
+
+                            <?php if($cos == 1): ?><tr>
                                     <th><?php echo ($choose["ar_name"]); ?></td>
                                     <th><?php echo ($choose["ar_phone"]); ?></td>
                                     <th><?php echo ($choose["ar_address"]); ?></td>
                                     <th>确定<input type="radio" name="choose" value="<?php echo ($choose["ar_id"]); ?>" checked></td>
-                            </tr>
-                        {/if}
+                            </tr><?php endif; ?>
                         <?php if(is_array($address)): $i = 0; $__LIST__ = $address;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?><tr>
                                 <td><?php echo ($v['ar_name']); ?></td>
                                 <td><?php echo ($v['ar_phone']); ?></td>

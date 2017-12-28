@@ -82,7 +82,7 @@
 							  </div>
 							  <div class="review-form">
 								<h4>谈谈对这件商品的看法</h4>
-								<form name="form1" id="ff" method="post" action="/index.php/Home/Index/suggest">
+								<form name="form1" id="ff" method="post" action="/index.php/Home/Goods/suggest">
 									<label>
 									<textarea name="message" id="message" required></textarea>
 									</label>
@@ -101,13 +101,14 @@
 											<th style="width:400px;text-align: center;">评价</th>
 											<th style="width:200px">评价时间</th>
 										</tr>
-										{foreach $suggest as $v}
+
+										<volist name="suggest" id="v">
 										<tr>
 											<td>{$v['rw_user_id']}</td>
 											<td>{$v['rw_text']}</td>
 											<td>{$v['rw_date']}</td>
 										</tr>
-										{/foreach}
+										</volist>
 									</table>
 								</div>
 							  </div>

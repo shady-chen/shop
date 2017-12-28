@@ -1,5 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit();?>
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -8,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>田野间商城</title>
+    <title>忆家乡商城</title>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/Public/css/bootstrap.min.css"  type="text/css">
@@ -51,12 +50,14 @@
             <div class="col-md-8" style="float:right;padding-top:10px">
                 <ul class="top-link">
                     <li><span class="glyphicon glyphicon-user"></span><span style="color:black;" id="login"><?php echo ($username); ?></span></li>
-                    <li id="register"><a href="/index.php/Home/User/register"><span class="glyphicon glyphicon-glass" style></span>注册</a></li>
-                    <li><a href="/index.php/Home/Goods/cart/act/show""><span class="glyphicon glyphicon-shopping-cart"></span>购物车</a></li>
+                    <?php if(!$_SESSION['user_id']): ?><li id="register"><a href="/index.php/Home/User/register"><span class="glyphicon glyphicon-glass" style></span>注册</a></li>
+                    <?php else: ?>
+                        <li><a href="/index.php/Home/Index/logout.du"><span class="glyphicon glyphicon-user"></span>注销</a></li><?php endif; ?>
+                    <li><a href="/index.php/Home/Goods/cart/act/show"><span class="glyphicon glyphicon-shopping-cart"></span>购物车</a></li>
                     <li><a href="/index.php/Home/Goods/favorite"><span class="glyphicon glyphicon-star"></span>收藏夹</a></li>
                     <li><a href="/index.php/Home/User/userInfo"><span class="glyphicon glyphicon-user" style=></span>个人管理</a></li>
                     <li><a href="/index.php/Home/Goods/contact"><span class="glyphicon glyphicon-envelope"></span>联系我们</a></li>
-                    <li><a href="/index.php/Home/Index/logout.du"><span class="glyphicon glyphicon-user"></span>注销</a></li>
+
                 </ul>
                 <div class="clo-md-6" style="position: absolute;right:200px;top:50px">
                     <input type="text" class="form-control" id="search" style="width:220px" placeholder="请输入关键字 例:蜂蜜">
@@ -205,103 +206,109 @@
         </div>
     </div>
 </nav>
-	<!--//////////////////////////////////////////////////-->
-	<!--///////////////////Category Page//////////////////-->
-	<!--//////////////////////////////////////////////////-->
-	<div id="page-content" class="single-page">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<ul class="breadcrumb">
-						<li><a href="/index.php">首页</a></li>
-						<li><a href="/index.php/Home/Goods/goodslist/">商品列表</a></li>
-					</ul>
-				</div>
-			</div>
+<!--//////////////////////////////////////////////////-->
+<!--///////////////////Category Page//////////////////-->
+<!--//////////////////////////////////////////////////-->
+<div id="page-content" class="single-page">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <ul class="breadcrumb">
+                    <li><a href="/index.php">首页</a></li>
+                    <li><a href="/index.php/Home/Goods/goodslist/">商品列表</a></li>
+                </ul>
+            </div>
+        </div>
 
-			<div class="row">
-				<div id="main-content" class="col-md-8">
-						<div class="row">
-							<div class="products">
-							<!-- smarty遍历起点-->
+        <div class="row">
+            <div id="main-content" class="col-md-8">
+                <div class="row">
+                    <div class="products">
+                        <!-- smarty遍历起点-->
 
-								<?php if(is_array($info)): $i = 0; $__LIST__ = $info;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?><div class="col-xs-4">
-									<div class="product">
-										<div class="image"><a href="/index.php/Home/Index/goodsinfo/good_id/<?php echo ($v['gd_id']); ?>"><img src="<?php echo ($v['gd_img']); ?>" /></a></div>
-										<div class="buttons">
-											<a class="btn cart" href="/index.php/Home/Goods/cart/good_id/<?php echo ($v['gd_id']); ?>">
-												<span class="glyphicon glyphicon-shopping-cart">购买</span>
-											</a>
-											<a class="btn wishlist" href="/index.php/Home/Index/favorite/add/<?php echo ($v['gd_id']); ?>">
-												<span class="glyphicon glyphicon-heart">收藏</span>
-											</a>
-										</div>
-										<div class="caption">
-											<div class="name"><h3><a href="javascript:void(0)"><?php echo ($v['gd_name']); ?></a></h3></div>
-											<div class="price">￥<?php echo ($v['gd_price_other']); ?><span>￥<?php echo ($v['gd_price_self']); ?></span></div>
-											<div class="rating">
-												<span class="glyphicon glyphicon-star"></span>
-												<span class="glyphicon glyphicon-star"></span>
-												<span class="glyphicon glyphicon-star"></span>
-												<span class="glyphicon glyphicon-star"></span>
-												<span class="glyphicon glyphicon-star-empty"></span></div>
-										</div>
-									</div>
-								</div><?php endforeach; endif; else: echo "" ;endif; ?>
-							
-							<!-- smarty遍历终点-->
+                        <?php if(is_array($info)): $i = 0; $__LIST__ = $info;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?><div class="col-xs-4">
+                                <div class="product">
+                                    <div class="image">
+                                        <a href="/index.php/Home/Goods/goodsinfo/good_id/<?php echo ($v['gd_id']); ?>">
+                                            <img src="<?php echo ($v['gd_img']); ?>" class="img-thumbnail" style="height: 230px;width: 170px;"/>
+                                        </a>
+                                    </div>
+                                    <div class="buttons">
+                                        <a class="btn cart" href="/index.php/Home/Goods/cart/good_id/<?php echo ($v['gd_id']); ?>">
+                                            <span class="glyphicon glyphicon-shopping-cart">购买</span>
+                                        </a>
+                                        <a class="btn wishlist" href="/index.php/Home/Goods/favorite/add/<?php echo ($v['gd_id']); ?>">
+                                            <span class="glyphicon glyphicon-heart">收藏</span>
+                                        </a>
+                                    </div>
+                                    <div class="caption">
+                                        <div class="name"><h3><a href="javascript:void(0)"><?php echo ($v['gd_name']); ?></a></h3>
+                                        </div>
+                                        <div class="price">￥<?php echo ($v['gd_price_other']); ?><span>￥<?php echo ($v['gd_price_self']); ?></span>
+                                        </div>
+                                        <div class="rating">
+                                            <span class="glyphicon glyphicon-star"></span>
+                                            <span class="glyphicon glyphicon-star"></span>
+                                            <span class="glyphicon glyphicon-star"></span>
+                                            <span class="glyphicon glyphicon-star"></span>
+                                            <span class="glyphicon glyphicon-star-empty"></span></div>
+                                    </div>
+                                </div>
+                            </div><?php endforeach; endif; else: echo "" ;endif; ?>
 
-						</div>
-						</div>	
-							
-						<div class="pages">
-							<?php echo ($page); ?>
-						</div>
-				</div>
-				<div id="sidebar" class="col-md-4">
-						<div class="widget wid-categories">
-						<div class="heading"><h4>商品类别</h4></div>
-						<div class="content">
-								<ul>
-									<li><a href="/index.php/Home/Goods/goodslist//type/肉类精选">肉类精选</a></li>
-									<li><a href="/index.php/Home/Goods/goodslist//type/粮油米面">粮油米面</a></li>
-									<li><a href="/index.php/Home/Goods/goodslist//type/名茶名酒">名茶名酒</a></li>
-									<li><a href="/index.php/Home/Goods/goodslist//type/果蔬副食">果蔬副食</a></li>
-									<li><a href="/index.php/Home/Goods/goodslist//type/水产极品">水产极品</a></li>
-									<li><a href="/index.php/Home/Goods/goodslist//type/野生特产">野生特产</a></li>
-									<li><a href="/index.php/Home/Goods/goodslist//type/滋补保健">滋补保健</a></li>
-									<li><a href="/index.php/Home/Goods/goodslist//type/工艺礼品">工艺礼品</a></li>
-								</ul>
-						</div>
-					</div>
-					<div class="widget wid-categories">
-						<div class="heading"><h4>商品产地</h4></div>
-							<div class="content">
-								<ul>
-									<li><a href="/index.php/Home/Goods/goodslist//from/云南">云南</a></li>
-									<li><a href="/index.php/Home/Goods/goodslist//from/四川">四川</a></li>
-									<li><a href="/index.php/Home/Goods/goodslist//from/重庆">重庆</a></li>
-									<li><a href="/index.php/Home/Goods/goodslist//from/北京">北京</a></li>
-									<li><a href="/index.php/Home/Goods/goodslist//from/山西">山西</a></li>
-								
-									<li><a href="/index.php/Home/Goods/goodslist//from/天津">天津</a></li>
-									<li><a href="/index.php/Home/Goods/goodslist//from/江苏">江苏</a></li>
-									<li><a href="/index.php/Home/Goods/goodslist//from/浙江">浙江</a></li>
-									<li><a href="/index.php/Home/Goods/goodslist//from/海南">海南</a></li>
-									<li><a href="/index.php/Home/Goods/goodslist//from/湖南">湖南</a></li>
-								
-									<li><a href="/index.php/Home/Goods/goodslist//from/福建">福建</a></li>
-									<li><a href="/index.php/Home/Goods/goodslist//from/东三省">东三省</a></li>
-									<li><a href="/index.php/Home/Goods/goodslist//from/西藏">西藏</a></li>
-									<li><a href="/index.php/Home/Goods/goodslist//from/内蒙古">内蒙古</a></li>
-									<li><a href="/index.php/Home/Goods/goodslist//from/新疆">新疆</a></li>
-								</ul>
-							</div>
-					</div>	
-				</div>
-			</div>
-		</div>
-	</div>
+                        <!-- smarty遍历终点-->
+
+                    </div>
+                </div>
+
+                <div class="pages">
+                    <?php echo ($page); ?>
+                </div>
+            </div>
+            <div id="sidebar" class="col-md-4">
+                <div class="widget wid-categories">
+                    <div class="heading"><h4>商品类别</h4></div>
+                    <div class="content">
+                        <ul>
+                            <li><a href="/index.php/Home/Goods/goodslist//type/肉类精选">肉类精选</a></li>
+                            <li><a href="/index.php/Home/Goods/goodslist//type/粮油米面">粮油米面</a></li>
+                            <li><a href="/index.php/Home/Goods/goodslist//type/名茶名酒">名茶名酒</a></li>
+                            <li><a href="/index.php/Home/Goods/goodslist//type/果蔬副食">果蔬副食</a></li>
+                            <li><a href="/index.php/Home/Goods/goodslist//type/水产极品">水产极品</a></li>
+                            <li><a href="/index.php/Home/Goods/goodslist//type/野生特产">野生特产</a></li>
+                            <li><a href="/index.php/Home/Goods/goodslist//type/滋补保健">滋补保健</a></li>
+                            <li><a href="/index.php/Home/Goods/goodslist//type/工艺礼品">工艺礼品</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="widget wid-categories">
+                    <div class="heading"><h4>商品产地</h4></div>
+                    <div class="content">
+                        <ul>
+                            <li><a href="/index.php/Home/Goods/goodslist//from/云南">云南</a></li>
+                            <li><a href="/index.php/Home/Goods/goodslist//from/四川">四川</a></li>
+                            <li><a href="/index.php/Home/Goods/goodslist//from/重庆">重庆</a></li>
+                            <li><a href="/index.php/Home/Goods/goodslist//from/北京">北京</a></li>
+                            <li><a href="/index.php/Home/Goods/goodslist//from/山西">山西</a></li>
+
+                            <li><a href="/index.php/Home/Goods/goodslist//from/天津">天津</a></li>
+                            <li><a href="/index.php/Home/Goods/goodslist//from/江苏">江苏</a></li>
+                            <li><a href="/index.php/Home/Goods/goodslist//from/浙江">浙江</a></li>
+                            <li><a href="/index.php/Home/Goods/goodslist//from/海南">海南</a></li>
+                            <li><a href="/index.php/Home/Goods/goodslist//from/湖南">湖南</a></li>
+
+                            <li><a href="/index.php/Home/Goods/goodslist//from/福建">福建</a></li>
+                            <li><a href="/index.php/Home/Goods/goodslist//from/东三省">东三省</a></li>
+                            <li><a href="/index.php/Home/Goods/goodslist//from/西藏">西藏</a></li>
+                            <li><a href="/index.php/Home/Goods/goodslist//from/内蒙古">内蒙古</a></li>
+                            <li><a href="/index.php/Home/Goods/goodslist//from/新疆">新疆</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <footer>
     <div class="container">

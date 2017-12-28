@@ -1,35 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5d954fd-9eeb-47a9-a21f-e21a6dc574c1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/cntx.sql" afterPath="$PROJECT_DIR$/cntx.sql" />
-      <change beforePath="$PROJECT_DIR$/shop_demo/Home/Controller/IndexController.class.php" afterPath="$PROJECT_DIR$/shop_demo/Home/Controller/IndexController.class.php" />
-      <change beforePath="$PROJECT_DIR$/shop_demo/Home/View/Goods/artile.html" afterPath="$PROJECT_DIR$/shop_demo/Home/View/Goods/artile.html" />
-      <change beforePath="$PROJECT_DIR$/shop_demo/Home/View/Goods/contact.html" afterPath="$PROJECT_DIR$/shop_demo/Home/View/Goods/contact.html" />
-      <change beforePath="$PROJECT_DIR$/shop_demo/Home/View/Goods/goodsinfo.html" afterPath="$PROJECT_DIR$/shop_demo/Home/View/Goods/goodsinfo.html" />
-      <change beforePath="$PROJECT_DIR$/shop_demo/Home/View/Goods/goodslist.html" afterPath="$PROJECT_DIR$/shop_demo/Home/View/Goods/goodslist.html" />
-      <change beforePath="$PROJECT_DIR$/shop_demo/Home/View/Goods/goodstext.html" afterPath="$PROJECT_DIR$/shop_demo/Home/View/Goods/goodstext.html" />
-      <change beforePath="$PROJECT_DIR$/shop_demo/Home/View/Goods/order.html" afterPath="$PROJECT_DIR$/shop_demo/Home/View/Goods/order.html" />
-      <change beforePath="$PROJECT_DIR$/shop_demo/Home/View/User/findPasword.html" afterPath="$PROJECT_DIR$/shop_demo/Home/View/User/findPasword.html" />
-      <change beforePath="$PROJECT_DIR$/shop_demo/Home/View/User/register.html" afterPath="$PROJECT_DIR$/shop_demo/Home/View/User/register.html" />
-      <change beforePath="$PROJECT_DIR$/shop_demo/Home/View/public/header.html" afterPath="$PROJECT_DIR$/shop_demo/Home/View/public/header.html" />
-      <change beforePath="$PROJECT_DIR$/shop_demo/Public/css/style.css" afterPath="$PROJECT_DIR$/shop_demo/Public/css/style.css" />
-      <change beforePath="$PROJECT_DIR$/shop_demo/Public/images/logo.png" afterPath="$PROJECT_DIR$/shop_demo/Public/images/logo.png" />
-      <change beforePath="$PROJECT_DIR$/shop_demo/Public/images/top.png" afterPath="$PROJECT_DIR$/shop_demo/Public/images/top.png" />
-      <change beforePath="$PROJECT_DIR$/shop_demo/Runtime/Cache/Home/0a9ffc944460965e388cf7392309f4db.php" afterPath="$PROJECT_DIR$/shop_demo/Runtime/Cache/Home/0a9ffc944460965e388cf7392309f4db.php" />
-      <change beforePath="$PROJECT_DIR$/shop_demo/Runtime/Cache/Home/50d26dba93be280046b0bcd584062fe2.php" afterPath="$PROJECT_DIR$/shop_demo/Runtime/Cache/Home/50d26dba93be280046b0bcd584062fe2.php" />
-      <change beforePath="$PROJECT_DIR$/shop_demo/Runtime/Cache/Home/6f9db2e36065904c6f9dec4abee20534.php" afterPath="$PROJECT_DIR$/shop_demo/Runtime/Cache/Home/6f9db2e36065904c6f9dec4abee20534.php" />
-      <change beforePath="$PROJECT_DIR$/shop_demo/Runtime/Cache/Home/77992c6c98fcc6206a84cb556b23d07b.php" afterPath="$PROJECT_DIR$/shop_demo/Runtime/Cache/Home/77992c6c98fcc6206a84cb556b23d07b.php" />
-      <change beforePath="$PROJECT_DIR$/shop_demo/Runtime/Cache/Home/77d30ea35d6f1f81b35e26f1d679d360.php" afterPath="$PROJECT_DIR$/shop_demo/Runtime/Cache/Home/77d30ea35d6f1f81b35e26f1d679d360.php" />
-      <change beforePath="$PROJECT_DIR$/shop_demo/Runtime/Cache/Home/8baacd57b4a30f2f267a89db9baf1155.php" afterPath="$PROJECT_DIR$/shop_demo/Runtime/Cache/Home/8baacd57b4a30f2f267a89db9baf1155.php" />
-      <change beforePath="$PROJECT_DIR$/shop_demo/Runtime/Cache/Home/8ca17de250d91d66f9ccf358f29511c4.php" afterPath="$PROJECT_DIR$/shop_demo/Runtime/Cache/Home/8ca17de250d91d66f9ccf358f29511c4.php" />
-      <change beforePath="$PROJECT_DIR$/shop_demo/Runtime/Cache/Home/c432f640b248d66290d5325cc9e396cd.php" afterPath="$PROJECT_DIR$/shop_demo/Runtime/Cache/Home/c432f640b248d66290d5325cc9e396cd.php" />
-      <change beforePath="$PROJECT_DIR$/shop_demo/Runtime/Cache/Home/cb7cef25d2399736ffa0fa4f55bf281f.php" afterPath="$PROJECT_DIR$/shop_demo/Runtime/Cache/Home/cb7cef25d2399736ffa0fa4f55bf281f.php" />
-      <change beforePath="$PROJECT_DIR$/shop_demo/Runtime/Cache/Home/d3015dd48913f0a09f07430e09c5b2b9.php" afterPath="$PROJECT_DIR$/shop_demo/Runtime/Cache/Home/d3015dd48913f0a09f07430e09c5b2b9.php" />
-      <change beforePath="$PROJECT_DIR$/shop_demo/Runtime/Cache/Home/e317000cd926d15764e604f8b773594b.php" afterPath="$PROJECT_DIR$/shop_demo/Runtime/Cache/Home/e317000cd926d15764e604f8b773594b.php" />
-      <change beforePath="$PROJECT_DIR$/shop_demo/Runtime/Cache/Home/f540561bc2af229cf2ab38c1ddf360ca.php" afterPath="$PROJECT_DIR$/shop_demo/Runtime/Cache/Home/f540561bc2af229cf2ab38c1ddf360ca.php" />
-    </list>
+    <list default="true" id="e5d954fd-9eeb-47a9-a21f-e21a6dc574c1" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -283,7 +255,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -422,15 +394,15 @@
       <workItem from="1514292893094" duration="3329000" />
       <workItem from="1514302484385" duration="3442000" />
       <workItem from="1514376317049" duration="15372000" />
-      <workItem from="1514460330147" duration="5157000" />
+      <workItem from="1514460330147" duration="5502000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27300000" />
+    <option name="totallyTimeSpent" value="27645000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28020832" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />

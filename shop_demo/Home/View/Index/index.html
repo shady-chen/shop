@@ -78,7 +78,7 @@
         <div class="row" style="margin-left:0px;">
             <div id="tab">
                 <ul class="tab">
-                    <li class="shichang-first" onmouseover="show(0)">本月疯狂购</li>
+                    <li class="shichang-first"  onmouseover="show(0)">本月疯狂购</li>
                     <li onmouseover="show(1)">热卖推销</li>
                     <li onmouseover="show(2)">猜你喜欢</li>
                     <li onmouseover="show(3)">新品上架</li>
@@ -86,7 +86,7 @@
                 <div class="show-goods">
                     <ul>
                         <volist name="arr1" id="v">
-                            <li>
+                            <li style="display: block;">
                                 <a href="__MODULE__/Goods/goodsinfo/good_id/{$v['gd_id']}">
                                     <img src="{$v['gd_img']}">
                                 </a><br>
@@ -203,3 +203,6 @@
 
 
 <include file="Home/View/public/footer.html" />
+<script>
+    document.getElementsByClassName('show-goods')[0].style.display = 'block';
+</script>

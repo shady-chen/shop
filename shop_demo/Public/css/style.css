@@ -56,7 +56,8 @@ ul li {list-style:none;}
 	border:4px rgb(255,68,0) solid;
 	width:450px;
 	height:370px;
-	background:url(../images/xiaoren.jpg);
+	background:url(../images/logo.png);
+	background-size: cover;
 	margin:-15px;
 }
 .title{

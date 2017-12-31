@@ -48,13 +48,13 @@
 						<tr>
 							<td><label>公告信息</label></td>
 							<td>
-								<textarea rows='8' cols='50' placeholder="请填写公告具体信息" name="nc_info" required></textarea>
+								<textarea rows='8' cols='50' id="notice-content" placeholder="请填写公告具体信息" name="nc_info" required ></textarea>
 							</td>
 						</tr>
 						
 						<tr>
 							<td colspan="2">
-							<input type="submit" style="background:rgb(280,68,0);color:white;width:150px;height:40px;border-radius: 10px;margin-left:80px" value="添加">
+							<input type="submit" style="background:rgb(280,68,0);color:white;width:150px;height:40px;border-radius: 10px;margin-left:80px" value="添加" id="submit">
 							<input type="reset" style="background:rgb(280,68,0);color:white;width:150px;height:40px;border-radius: 10px" value="重写">
 							</td>
 						</tr>
@@ -67,3 +67,18 @@
 
 </body>
 </html>
+<script>
+	window.onload = function ()
+	{
+	    var submitBtn = document.getElementById('submit');
+        submitBtn.onclick = function ()
+		{
+			var content = document.getElementById('notice-content');
+			if(content.value == '')
+			{
+			    alert('请必须填写报头和公告内容');
+			    return false;
+			}
+		}
+	}
+</script>
